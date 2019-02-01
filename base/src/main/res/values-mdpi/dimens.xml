@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义对话框相关 -->
+    <dimen name="custom_dialog_width">280dp</dimen>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_mine_title">會員中心</string>
+    <string name="mine_btn_login">登錄或註冊租租車賬號</string>
+    <string name="mine_login_tips">免登錄體驗</string>
+    <string name="mine_feature_order">訂單查詢</string>
+    <string name="mine_feature_license">駕照服務</string>
+    <string name="mine_feature_ticket">門票玩樂</string>
+    <string name="mine_login_footer_follow_wechat">關注公眾號</string>
+    <string name="mine_login_footer_service_num">服務代碼：</string>
+    <string name="mine_login_footer_app_version">版本號</string>
+    <string name="mine_login_load_data_error_tips">請求失敗，請稍後再試</string>
+    <string name="mine_login_load_data_no_login_tips">登錄超時，請重新登錄</string>
+    <string name="mine_login_footer_wechat_tips_title">公眾號“%s”已複製</string>
+    <string name="mine_login_footer_wechat_tips_title_app_name">租租車</string>
+    <string name="mine_login_footer_wechat_tips_message">請在微信中直接粘貼搜索</string>
+    <string name="mine_login_footer_wechat_tips_confirm">打開微信</string>
+    <string name="mine_login_footer_wechat_tips_cancel">取消</string>
+    <string name="mine_login_wechat_fast">微信快捷登錄</string>
+    <string name="mine_login_phone_fast">使用手機號登錄</string>
+</resources>

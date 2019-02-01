@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
+        <!-- Toolbar Theme / Apply black arrow -->
+        <item name="colorControlNormal">@android:color/black</item>
+        <!--Navigation icon颜色设置-->
+        <item name="drawerArrowStyle">@style/AppTheme.AppDrawerArrowStyle</item>
+        <item name="homeAsUpIndicator">@drawable/ic_back</item>
+        <item name="actionBarSize">@dimen/toolbar_height</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <!--將 spinBars 屬性設定為 false-->
+        <item name="spinBars">false</item>
+        <!--設定 drawer arrow 的顏色-->
+        <item name="color">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="LaunchTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+    </style>
+
+    <style name="MainActivityTheme" parent="AppTheme.NoActionBar"></style>
+
+    <!-- activity切换动画-->
+    <style name="ActivityAnimation" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right_new</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_right_new</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_right_close_new</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right_close_new</item>
+    </style>
+
+    <!-- ScrollView样式 -->
+    <style name="ScrollView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    <!-- 新版 设置页面的item布局样式 -->
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_bottom_out</item>
+    </style>
+
+    <!-- 微信支付状态页面全透明效果-->
+    <style name="WeChatTransparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ActivityTransparent">
+        <item name="android:windowBackground">@color/transparent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="TopBarFramlayout">
+        <item name="android:alpha">0</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/toolbar_height</item>
+        <item name="android:background">@color/bg_top_bar</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!-- item 样式 -->
+    <style name="MineItemList" />
+    <!-- item 根布局 -->
+    <style name="MineItemList.Root">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/toolbar_height</item>
+    </style>
+    <!-- item 根布局 透明背景 水波纹背景选择器(sdk>=21)  -->
+    <style name="MineItemList.Root.TransparentBg">
+        <item name="android:background">@drawable/selector_bg_tab</item>
+    </style>
+    <!-- item 根布局 白色背景 水波纹背景选择器(sdk>=21)   -->
+    <style name="MineItemList.Root.WhiteBg">
+        <item name="android:background">@drawable/selector_bg_tab2</item>
+    </style>
+
+    <!--  左侧文本-->
+    <style name="MineItemList.LeftTv">
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/textColor_28</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--  默认是红点提醒-->
+    <style name="MineItemList.RightIv">
+        <item name="android:layout_width">8dp</item>
+        <item name="android:layout_height">8dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginEnd">45dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:src">@android:color/holo_red_light</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <!--  默认是向右的箭头-->
+    <style name="MineItemList.RightTv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:drawableRight">@drawable/ic_arrow_right_gray</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:maxWidth">240dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/textColor_99</item>
+    </style>
+
+    <style name="MineItemList.RightTv.NoDrawable">
+        <item name="android:layout_marginEnd">@dimen/toolbar_height</item>
+        <item name="android:drawableRight">@null</item>
+    </style>
+
+    <style name="NormalDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="DialogFragmentStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="TabText" parent="TextAppearance.AppCompat">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.ExpandedTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/textColor_28</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="TextAppearance.CollapsedTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/textColor_28</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+</resources>

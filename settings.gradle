@@ -1,0 +1,6 @@
+include ':app', ':base', ':platformSdk', ':platformCore', ":librarys",
+        ':librarys:networklib',
+        ':librarys:designStyle',
+        ':librarys:autodispose-android',
+        ':librarys:uilibs',
+        ':librarys:rxjavaExt'

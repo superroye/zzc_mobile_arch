@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="invalid_time_too_short">还车时间必须大于取车时间</string>
+
+    <string name="invalid_return_time_overtime">还车时间已过</string>
+    <string name="invalid_pickup_time_overtime">取车时间已过</string>
+
+    <string name="city_list_all_countries">全部%1$s国家</string>
+    <string name="city_list_all_cities">全部%1$s城市</string>
+    <string name="city_list_hot_cities">热门城市</string>
+    <string name="city_list_location_city">所在城市</string>
+
+</resources>

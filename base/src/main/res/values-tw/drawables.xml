@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 按钮标题颜色 -->
+    <drawable name="zzc_slogan_cgzj">@drawable/ic_zzc_wheel_cgzj_traditional</drawable>
+    <drawable name="zzc_slogan_qszc">@drawable/ic_zzc_wheel_qszc_traditional</drawable>
+</resources>

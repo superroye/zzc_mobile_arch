@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">租租车</string>
+
+
+    <!-- 导航栏标题 -->
+    <string name="app_home">首页</string>
+    <string name="app_mine">我的</string>
+    <string name="app_kf">客服</string>
+    <string name="app_chat">自驾圈</string>
+    <string name="app_destination">目的地</string>
+
+    <string name="app_kf_title">7x24中英文客服</string>
+
+    <string name="app_chat_explore">发现</string>
+    <string name="app_chat_group">群聊</string>
+    <string name="app_chat_qa">问答</string>
+
+    <string name="title_prompt">提示信息</string>
+    <string name="network_error">网络不给力，请检查网络设置</string>
+    <string name="network_error_1">没有网络连接</string>
+    <string name="network_error_2">请检查网络设置后重试</string>
+    <string name="network_timeout">网络连接超时，请重试</string>
+    <string name="server_error">服务器开了个小差，请稍后再试</string>
+    <string name="retry">重试</string>
+    <string name="refresh_page">刷新页面</string>
+
+    <!-- 按钮标题 -->
+    <string name="btn_confirm">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_known">知道了</string>
+    <!-- 正在加载信息提示 -->
+    <string name="tip_loading_info">正在用力加载&#8230;</string>
+    <!-- 退出提示 -->
+    <string name="msg_exit_zuzuche">再按一次退出租租车</string>
+    <string name="transit_back"><![CDATA[< 返回]]></string>
+    <!-- 微信-->
+    <string name="connection_settings">连接设置</string>
+    <string name="close">关闭</string>
+    <string name="ok">好</string>
+
+    <string name="access_token">pk.eyJ1IjoienV6dWNoZSIsImEiOiJjaXM3NWN5ejYwMDBqMm9wN21sZXg0OWQ0In0._8ZJBKVOLMSjdwft9rOMdQ</string>
+    <string name="send_location">发送</string>
+    <string name="search_location">搜索地点</string>
+    <string name="photo">图片</string>
+    <string name="camara">相机</string>
+    <string name="location">位置</string>
+    <string name="home_day">天</string>
+
+    <string name="asset_statements" translatable="false">
+        [
+            {
+                \"relation\": [
+                    \"delegate_permission/common.handle_all_urls\"
+                ],
+                \"target\": {
+                    \"namespace\": \"web\",
+                    \"site\": \"https://oia.zuzuche.com\"
+                }
+            },
+            {
+                \"relation\": [
+                    \"delegate_permission/common.handle_all_urls\"
+                ],
+                \"target\": {
+                    \"namespace\": \"web\",
+                    \"site\": \"http://oia.zuzuche.com\"
+                }
+            },
+            {
+                \"relation\": [
+                    \"delegate_permission/common.handle_all_urls\"
+                ],
+                \"target\": {
+                    \"namespace\": \"web\",
+                    \"site\": \"https://l.zuzuche.com\"
+                }
+            },
+            {
+                \"relation\": [
+                    \"delegate_permission/common.handle_all_urls\"
+                ],
+                \"target\": {
+                    \"namespace\": \"web\",
+                    \"site\": \"http://l.zuzuche.com\"
+                }
+            },
+            {
+                \"relation\": [
+                    \"delegate_permission/common.handle_all_urls\"
+                ],
+                \"target\": {
+                    \"namespace\": \"web\",
+                    \"site\": \"https://m.zuzuche.com\"
+                }
+            },
+            {
+                \"relation\": [
+                    \"delegate_permission/common.handle_all_urls\"
+                ],
+                \"target\": {
+                    \"namespace\": \"web\",
+                    \"site\": \"http://m.zuzuche.com\"
+                }
+            },
+            {
+                \"relation\": [
+                    \"delegate_permission/common.handle_all_urls\"
+                ],
+                \"target\": {
+                    \"namespace\": \"web\",
+                    \"site\": \"https://m-dev.zuzuche.com\"
+                }
+            },
+            {
+                \"relation\": [
+                    \"delegate_permission/common.handle_all_urls\"
+                ],
+                \"target\": {
+                    \"namespace\": \"web\",
+                    \"site\": \"http://m-dev.zuzuche.com\"
+                }
+            }
+        ]
+    </string>
+    <!-- voip -->
+    <string name="calling">正在呼叫&#8230;</string>
+    <string name="call_mute">静音</string>
+    <string name="call_keyboard">拨号盘</string>
+    <string name="call_hand_free">免提</string>
+    <string name="call_hand_up">挂断</string>
+    <string name="call_calling">通话中</string>
+    <string name="call_network_not_available">当前网络不可用，无法通话，请拨打语音电话&#8230;</string>
+    <string name="call_network_not_available2">当前网络不可用，无法通话\n请拨打语音电话</string>
+    <string name="call_network_not_available3">网络错误，通话已断开\n请检查你的网络设置</string>
+    <string name="call_float_permission">浮窗权限未获取</string>
+    <string name="call_float_tip">您的手机没有授权租租车获得浮窗权限，通话最小化不能正常使用</string>
+    <string name="call_float_setting">开启</string>
+    <string name="voip_dialog_message">检测到未开启通话录音权限，请手动开启应用权限</string>
+    <string name="voip_network_tip">当前通话连接质量不佳</string>
+    <string name="voip_speaker_tip">声音将通过扬声器播放</string>
+    <string name="voip_Receiver_tip">声音将通过听筒播放</string>
+    <!-- 语音识别 -->
+    <string name="voice_to_text_pre">按住开始说话</string>
+    <string name="voice_to_text_pressed">正在说话中，松开结束</string>
+    <string name="voice_to_text_parsing">语音识别中，请稍后&#8230;</string>
+    <string name="voice_to_text_failed">未能识别语音，按住重新说话</string>
+    <string name="voice_to_text_retry">重新说话</string>
+
+    <string name="voice_to_text_gesture_pressed">手指上滑，取消识别</string>
+    <string name="voice_to_text_gesture_cancel">手指松开，取消识别</string>
+    <string name="popup_voice_tip">点击这里，语音交流更便捷！</string>
+
+    <string name="deleted">已删除</string>
+    <string name="poi_look_more">查看更多</string>
+
+    <!-- 多语言 -->
+    <string name="lang_cn">简体中文</string>
+    <string name="lang_hk">香港繁體</string>
+    <string name="lang_tw">台灣繁體</string>
+
+    <!--中文占位符-->
+    <string name="cn_placeholder">&#8195;&#8195;&#8195;&#8195;&#8195;</string>
+
+    <!--notificationChannel描述-->
+    <string name="channel_name">default</string>
+    <string name="channel_description">default</string>
+
+    <!-- 取还车地点 -->
+    <string name="landmark_choose_main_header_title_pick_up_and_return">取还车地点</string>
+    <string name="landmark_choose_main_header_title_pick_up">取车地点</string>
+    <string name="landmark_choose_main_header_title_return">还车地点</string>
+    <string name="landmark_choose_list_type_item_search_landmark">搜索地标</string>
+    <string name="landmark_choose_map_marker_detail_btn_pick_up">设为取车地点</string>
+    <string name="landmark_choose_map_marker_detail_btn_return">设为还车地点</string>
+    <string name="landmark_choose_search_edit_hint">请输入机场/火车站/酒店名</string>
+    <string name="landmark_choose_search_btn_cancel">取消</string>
+    <string name="landmark_choose_search_loading_tips">数据加载中…</string>
+
+    <!-- 拍照助手 -->
+    <string name="order_photo_assistant">拍照助手</string>
+    <string name="order_photo_choose_order_tip">请选择您的租车订单</string>
+    <string name="order_photo_choose_order_tip2">订单号：%1$s&#160;&#160;%2$s&#160;&#160;%3$s</string>
+    <string name="order_photo_choose_order_id">订单号：%1$s</string>
+    <string name="order_photo_choose_order_dealer">租车公司：%1$s</string>
+    <string name="order_photo_choose_order_pickup">取：%1$s&#160;&#160;%2$s</string>
+    <string name="order_photo_choose_order_return">还：%1$s&#160;&#160;%2$s</string>
+    <string name="order_photo_choose_order_time_address">%1$s&#160;&#160;%2$s</string>
+    <string name="order_photo_choose_order_days">%1$s天</string>
+    <string name="order_photo_choose_error_tip">暂时无法获取订单信息，请稍后再试</string>
+    <string name="order_photo_choose_error_tip2">您还没有租车订单，请前往租车</string>
+
+    <string name="order_photo_upload">立即上传</string>
+    <string name="order_photo_upload_continue">继续上传</string>
+
+    <string name="order_photo_upload_add">添加</string>
+    <string name="order_photo_upload_status_not_uploaded">未上传</string>
+    <string name="order_photo_upload_status_uploading">上传中&#8230;</string>
+    <string name="order_photo_upload_status_uploaded">已上传</string>
+    <string name="order_photo_upload_status_upload_failed">上传失败</string>
+
+    <string name="order_photo_upload_progress_uploading">照片上传中</string>
+    <string name="order_photo_upload_progress_cancel">取消上传</string>
+    <string name="order_photo_upload_no_photo">没有要上传的照片, 请先添加照片！</string>
+    <string name="order_photo_upload_back">照片尚未上传，确认退出吗？</string>
+    <string name="order_photo_upload_back_save">照片尚未上传，是否保留已添加的照片？</string>
+    <string name="order_photo_upload_environment_error">上传环境检测失败，请稍候再试</string>
+    <string name="order_photo_upload_total_limit">一次最多支持上传%1$d张照片</string>
+    <string name="order_photo_upload_not_wifi">当前为非Wi-Fi环境，继续上传会消耗流量</string>
+    <string name="order_photo_upload_success">%1$s张照片上传成功</string>
+    <string name="order_photo_upload_fail">%1$s张照片上传失败</string>
+
+    <!-- 图片预览 -->
+    <string name="media_viewer_unknown">未知</string>
+    <string name="media_viewer_more">更多操作</string>
+    <string name="media_viewer_shot_time">拍摄时间：%1$s</string>
+    <string name="media_viewer_shot_address">拍摄地点：%1$s</string>
+    <string name="media_viewer_lat_lng">%1$s,%2$s</string>
+    <string name="media_viewer_lat_lng2">坐标：%1$s</string>
+    <string name="media_viewer_copy">复制</string>
+    <string name="media_viewer_photo_name">照片名称：%1$s</string>
+
+    <string name="media_viewer_delete_img">删除图片</string>
+    <string name="media_viewer_save2album">保存到相册</string>
+
+    <string name="recycler_load_more">正在加载更多&#8230;</string>
+
+    <string name="img_count">共%1$d张</string>
+
+</resources>

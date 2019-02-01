@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--黑色（默认）-->
+    <item
+        android:drawable="@drawable/selector_icon_more"
+        android:maxLevel="0"
+        android:minLevel="0" />
+    <!--黑色 有消息-->
+    <item
+        android:drawable="@drawable/selector_icon_more_msg"
+        android:maxLevel="1"
+        android:minLevel="1" />
+    <!--白色-->
+    <item
+        android:drawable="@drawable/selector_icon_more_white"
+        android:maxLevel="2"
+        android:minLevel="2" />
+    <!--白色 有消息-->
+    <item
+        android:drawable="@drawable/selector_icon_more_white_msg"
+        android:maxLevel="3"
+        android:minLevel="3" />
+</level-list>

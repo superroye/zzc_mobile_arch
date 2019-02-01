@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/zzc_red_f40256_helf" android:state_enabled="false"/>
+    <item android:color="@color/zzc_red_f40256" android:state_enabled="true"/>
+    <item android:color="@color/zzc_red_f40256"/>
+</selector>

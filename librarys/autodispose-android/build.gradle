@@ -1,0 +1,35 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+    lintOptions {
+        lintConfig file('lint.xml')
+    }
+}
+
+dependencies {
+    api "io.reactivex.rxjava2:rxandroid:${rxandroidVersion}"
+    api("android.arch.lifecycle:extensions:${lifecycleVersion}") {
+        exclude group: 'com.android.support', module: 'support-fragment'
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    api 'com.uber.autodispose:autodispose:1.0.0'
+    api rootProject.ext.support_annotations
+}

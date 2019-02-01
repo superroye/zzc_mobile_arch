@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 取還車地點 -->
+    <string name="landmark_choose_main_header_title_pick_up_and_return">取還車地點</string>
+    <string name="landmark_choose_main_header_title_pick_up">取車地點</string>
+    <string name="landmark_choose_main_header_title_return">還車地點</string>
+    <string name="landmark_choose_list_type_item_search_landmark">搜索地標</string>
+    <string name="landmark_choose_map_marker_detail_btn_pick_up">設為取車地點</string>
+    <string name="landmark_choose_map_marker_detail_btn_return">設為還車地點</string>
+    <string name="landmark_choose_search_edit_hint">請輸入機場/火車站/酒店名</string>
+    <string name="landmark_choose_search_btn_cancel">取消</string>
+    <string name="landmark_choose_search_loading_tips">數據載入中…</string>
+
+    <string name="app_name">租租車</string>
+    <!-- 导航栏标题 -->
+    <string name="title_prompt">提示訊息</string>
+    <!-- 按钮标题 -->
+    <string name="btn_confirm">確定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_known">知導了</string>
+    <!-- 正在加載訊息提示 -->
+    <string name="tip_loading_info">正在用力加載&#8230;</string>
+    <!-- 退出提示 -->
+    <string name="msg_exit_zuzuche">再按一次退出租租車</string>
+
+    <string name="img_count">共%1$d張</string>
+
+</resources>

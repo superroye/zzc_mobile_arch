@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 0-1:bottomLeftRadius&bottomRightRadius圆角;2:bottomRightRadius圆角;3;bottomLeftRadius圆角;-->
+    <item
+        android:maxLevel="1"
+        android:minLevel="0">
+        <selector>
+            <item
+                android:state_enabled="true"
+                android:state_pressed="false">
+                <shape>
+                    <corners
+                        android:bottomLeftRadius="@dimen/dialog_shape_radius"
+                        android:bottomRightRadius="@dimen/dialog_shape_radius"/>
+                    <solid android:color="@android:color/white"/>
+                    <padding
+                        android:bottom="@dimen/dialog_shape_padding"
+                        android:left="@dimen/dialog_shape_padding"
+                        android:right="@dimen/dialog_shape_padding"
+                        android:top="@dimen/dialog_shape_padding"/>
+                </shape>
+            </item>
+
+            <item
+                android:state_enabled="true"
+                android:state_pressed="true">
+                <shape>
+                    <corners android:bottomLeftRadius="@dimen/dialog_shape_radius"/>
+                    <solid android:color="@color/bg_item_pressed"/>
+                    <padding
+                        android:bottom="@dimen/dialog_shape_padding"
+                        android:left="@dimen/dialog_shape_padding"
+                        android:right="@dimen/dialog_shape_padding"
+                        android:top="@dimen/dialog_shape_padding"/>
+                </shape>
+            </item>
+
+            <item android:state_enabled="true">
+                <shape>
+                    <corners android:bottomLeftRadius="@dimen/dialog_shape_radius"/>
+                    <solid android:color="@android:color/white"/>
+                    <padding
+                        android:bottom="@dimen/dialog_shape_padding"
+                        android:left="@dimen/dialog_shape_padding"
+                        android:right="@dimen/dialog_shape_padding"
+                        android:top="@dimen/dialog_shape_padding"/>
+                </shape>
+            </item>
+
+        </selector>
+    </item>
+
+    <item
+        android:maxLevel="2"
+        android:minLevel="2">
+        <selector>
+
+            <item
+                android:state_enabled="true"
+                android:state_pressed="false">
+                <shape>
+                    <corners android:bottomRightRadius="@dimen/dialog_shape_radius"/>
+                    <solid android:color="@android:color/white"/>
+                    <padding
+                        android:bottom="@dimen/dialog_shape_padding"
+                        android:left="@dimen/dialog_shape_padding"
+                        android:right="@dimen/dialog_shape_padding"
+                        android:top="@dimen/dialog_shape_padding"/>
+                </shape>
+            </item>
+
+            <item
+                android:state_enabled="true"
+                android:state_pressed="true">
+                <shape>
+                    <corners android:bottomRightRadius="@dimen/dialog_shape_radius"/>
+                    <solid android:color="@color/bg_item_pressed"/>
+                    <padding
+                        android:bottom="@dimen/dialog_shape_padding"
+                        android:left="@dimen/dialog_shape_padding"
+                        android:right="@dimen/dialog_shape_padding"
+                        android:top="@dimen/dialog_shape_padding"/>
+                </shape>
+            </item>
+
+            <item android:state_enabled="true">
+                <shape>
+                    <corners android:bottomRightRadius="@dimen/dialog_shape_radius"/>
+                    <solid android:color="@android:color/white"/>
+                    <padding
+                        android:bottom="@dimen/dialog_shape_padding"
+                        android:left="@dimen/dialog_shape_padding"
+                        android:right="@dimen/dialog_shape_padding"
+                        android:top="@dimen/dialog_shape_padding"/>
+                </shape>
+            </item>
+
+        </selector>
+    </item>
+
+    <item
+        android:maxLevel="3"
+        android:minLevel="3">
+        <selector>
+
+            <item
+                android:state_enabled="true"
+                android:state_pressed="false">
+                <shape>
+                    <corners android:bottomLeftRadius="@dimen/dialog_shape_radius"/>
+                    <solid android:color="@android:color/white"/>
+                    <padding
+                        android:bottom="@dimen/dialog_shape_padding"
+                        android:left="@dimen/dialog_shape_padding"
+                        android:right="@dimen/dialog_shape_padding"
+                        android:top="@dimen/dialog_shape_padding"/>
+                </shape>
+            </item>
+
+            <item
+                android:state_enabled="true"
+                android:state_pressed="true">
+                <shape>
+                    <corners android:bottomLeftRadius="@dimen/dialog_shape_radius"/>
+                    <solid android:color="@color/bg_item_pressed"/>
+                    <padding
+                        android:bottom="@dimen/dialog_shape_padding"
+                        android:left="@dimen/dialog_shape_padding"
+                        android:right="@dimen/dialog_shape_padding"
+                        android:top="@dimen/dialog_shape_padding"/>
+                </shape>
+            </item>
+
+            <item android:state_enabled="true">
+                <shape>
+                    <corners android:bottomLeftRadius="@dimen/dialog_shape_radius"/>
+                    <solid android:color="@android:color/white"/>
+                    <padding
+                        android:bottom="@dimen/dialog_shape_padding"
+                        android:left="@dimen/dialog_shape_padding"
+                        android:right="@dimen/dialog_shape_padding"
+                        android:top="@dimen/dialog_shape_padding"/>
+                </shape>
+            </item>
+
+        </selector>
+    </item>
+
+</level-list>

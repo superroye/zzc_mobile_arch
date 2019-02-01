@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自驾圈群聊 -->
+    <dimen name="driving_group_chat_message_height">230dp</dimen>
+    <dimen name="driving_group_chat_message_item_unread_num_tips_long">6dp</dimen>
+    <dimen name="driving_group_chat_message_item_unread_num_tips_short">4dp</dimen>
+
+    <dimen name="dialog_shape_radius">8dp</dimen>
+    <dimen name="dialog_shape_padding">10dp</dimen>
+</resources>

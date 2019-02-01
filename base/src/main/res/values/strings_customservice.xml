@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="customservice_search_hint">有问题？搜索一下，轻松解决</string>
+
+    <string name="customservice_search_page_hint">有问题？搜一下</string>
+    <string name="customservice_search_empty">抱歉，没有相关内容</string>
+
+    <string name="customservice_call_continue">继续拨打</string>
+    <string name="customservice_call_back">预约回电</string>
+    <string name="customservice_call_back_wait">等待回电</string>
+    <string name="customservice_call_back_success">预约成功</string>
+
+    <string name="customservice_feedback_tips">欢迎对我们的服务提出意见和建议</string>
+    <string name="customservice_feedback">意见反馈</string>
+    <string name="customservice_busy_call_tips">目前电话繁忙，可能需要您等待较长的时间，建议您选择专人回电服务</string>
+    <string name="customservice_title">7x24中英文客服</string>
+    <string name="customservice_call_needlogin">登录后拨打，你的来电会被优先接听</string>
+    <string name="customservice_call_redirect">直接拨打</string>
+    <string name="customservice_call_nowlogin">立即登录</string>
+</resources>

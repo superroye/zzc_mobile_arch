@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wolf.uilibs.widget.badgetab.BadgeTabLayout
+    android:id="@id/home_tab_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="horizontal"
+    app:checkedTab="@id/tab_home"
+    tools:background="@color/colorTabbar">
+
+    <com.wolf.uilibs.widget.badgetab.BadgeTabView
+        android:id="@id/tab_home"
+        style="@style/BadgeTabView"
+        app:src="@drawable/selector_icon_home"
+        app:text="@string/app_home"
+        tools:badge_visible="true"/>
+
+    <com.wolf.uilibs.widget.badgetab.BadgeTabView
+        android:id="@id/tab_service"
+        style="@style/BadgeTabView"
+        app:src="@drawable/selector_icon_service"
+        app:text="@string/app_kf"
+        tools:badge_text="99+"
+        tools:badge_visible="true"/>
+
+    <com.wolf.uilibs.widget.badgetab.BadgeTabView
+        android:id="@id/tab_mine"
+        style="@style/BadgeTabView"
+        app:src="@drawable/selector_icon_mine"
+        app:text="@string/app_mine"
+        tools:badge_visible="true"/>
+
+</com.wolf.uilibs.widget.badgetab.BadgeTabLayout>

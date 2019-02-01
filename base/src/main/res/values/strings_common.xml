@@ -1,0 +1,31 @@
+<resources>
+    <!-- 通用 -->
+    <string name="common_send">发送</string>
+    <string name="common_image">图片</string>
+    <string name="common_album">相册</string>
+    <string name="common_camera">相机</string>
+    <string name="common_sys_album">系统相册</string>
+    <string name="common_all_images">所有图片</string>
+    <string name="common_select_up_image">您最多只能选择%1$d张图片</string>
+    <string name="common_save_pic">保存图片</string>
+    <string name="common_save_image_path">图片已保存至%1$s</string>
+    <string name="common_save_image_path2">图片已保存至%1$s文件夹</string>
+    <string name="common_images_preview">图片预览</string>
+    <string name="common_save_fail">%1$s保存失败</string>
+
+    <string name="common_deny">拒绝</string>
+    <string name="common_allow">允许</string>
+    <string name="common_go_to">前往</string>
+    <string name="common_give_up">放弃</string>
+    <string name="common_attention">注意</string>
+
+    <!-- permissions -->
+    <string name="common_permission_message">%1$s相关权限已被禁用，前往设置？</string>
+    <string name="common_permission_calls">电话</string>
+    <string name="common_permission_camera">相机</string>
+    <string name="common_permission_camera_doc">相机、文件</string>
+    <string name="common_permission_album_doc">相册、文件</string>
+    <string name="common_permission_camera_failed">打开相机失败</string>
+    <string name="common_permission_album_failed">打开相册失败</string>
+    <string name="common_permission_location">位置信息</string>
+</resources>

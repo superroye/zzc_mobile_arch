@@ -1,0 +1,38 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api project(':platformCore')
+    api project(':librarys:designStyle')
+    api project(':librarys:autodispose-android')
+    api project(':librarys:uilibs')
+    api project(':librarys:networklib')
+    api project(':librarys:rxjavaExt')
+
+    api "com.android.support:multidex:${multidexVersion}"
+
+    api("com.yanzhenjie:permission:${andPermissionVersion}") {
+        exclude group: 'com.android.support', module: 'support-fragment'
+    }
+
+    api 'jp.wasabeef:glide-transformations:3.0.1'
+
+}

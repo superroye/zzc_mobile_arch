@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- item 样式 -->
+    <style name="Login"/>
+
+    <style name="Login.Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColor_28</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="Login.CaptchaTip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColor_a4</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Login.ErrorTip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/zzc_red_f24c3d</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="Login.XScrollView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_footer_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColor_c6"
+            android:textSize="12dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="专业服务 出行无忧" />
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="0.5dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/textColor_c6"
+            app:layout_constraintBottom_toBottomOf="@id/tv_footer_title"
+            app:layout_constraintRight_toLeftOf="@id/tv_footer_title"
+            app:layout_constraintTop_toTopOf="@id/tv_footer_title" />
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/textColor_c6"
+            app:layout_constraintBottom_toBottomOf="@id/tv_footer_title"
+            app:layout_constraintLeft_toRightOf="@id/tv_footer_title"
+            app:layout_constraintTop_toTopOf="@id/tv_footer_title" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_footer_list"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_service_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/textColor_28"
+        android:textSize="12dp"
+        tools:text="服务代码：3888099890" />
+
+</LinearLayout>

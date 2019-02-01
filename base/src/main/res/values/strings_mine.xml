@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_mine_title">会员中心</string>
+    <string name="mine_btn_login">登录或注册租租车账号</string>
+    <string name="mine_login_tips">免登录体验</string>
+    <string name="mine_feature_order">订单查询</string>
+    <string name="mine_feature_license">驾照服务</string>
+    <string name="mine_feature_ticket">门票玩乐</string>
+    <string name="mine_login_footer_follow_wechat">关注公众号</string>
+    <string name="mine_login_footer_service_num">服务代码：</string>
+    <string name="mine_login_footer_app_version">版本号</string>
+    <string name="mine_login_load_data_error_tips">请求失败，请稍后再试</string>
+    <string name="mine_login_load_data_no_login_tips">登录超时，请重新登录</string>
+    <string name="mine_login_footer_wechat_tips_title">公众号“%s”已复制</string>
+    <string name="mine_login_footer_wechat_tips_title_app_name">租租车</string>
+    <string name="mine_login_footer_wechat_tips_message">请在微信中直接粘贴搜索</string>
+    <string name="mine_login_footer_wechat_tips_confirm">打开微信</string>
+    <string name="mine_login_footer_wechat_tips_cancel">取消</string>
+    <string name="mine_login_wechat_fast">微信快捷登录</string>
+    <string name="mine_login_phone_fast">使用手机号登录</string>
+
+    <string name="mine_bind_phone_wechat">绑定微信接收更多优惠</string>
+    <string name="mine_bind_phone_wechat_go">去绑定</string>
+    <string name="mine_follow_phone_wechat">关注公众号接收更多优惠</string>
+    <string name="mine_follow_phone_wechat_go">去关注</string>
+
+</resources>

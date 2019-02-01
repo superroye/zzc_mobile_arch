@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_shortAnimTime">
+
+    <!-- 默认透明背景 按下透明背景 为什么这么做?纯粹是为了适配 drawable-v21下的selector_bg_tab3.xml-->
+    <item android:drawable="@android:color/transparent" android:state_pressed="true"/>
+    <item android:drawable="@android:color/transparent" android:state_focused="true"/>
+    <item android:drawable="@android:color/transparent"/>
+
+</selector>

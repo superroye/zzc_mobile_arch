@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fl_tab_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="56dp"
+    android:background="@drawable/selector_bg_tablayout_1"
+    android:padding="10dp"
+    android:paddingBottom="4dp">
+
+    <TextView
+        android:id="@+id/tv_tab_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:maxLines="1"
+        android:textColor="@color/selector_color_tablayout_title"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        tools:text="电话卡" />
+
+    <TextView
+        android:id="@+id/tv_tab_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:maxLines="1"
+        android:textColor="@color/selector_color_tablayout_desc"
+        android:textSize="11dp"
+        tools:text="秒杀5元起" />
+
+</FrameLayout>

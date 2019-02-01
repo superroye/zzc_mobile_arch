@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/audio_cancel"
+        android:maxLevel="0"
+        android:minLevel="0"/>
+    <item
+        android:drawable="@drawable/icon_volume_01"
+        android:maxLevel="1"
+        android:minLevel="1"/>
+    <item
+        android:drawable="@drawable/icon_volume_02"
+        android:maxLevel="2"
+        android:minLevel="2"/>
+    <item
+        android:drawable="@drawable/icon_volume_03"
+        android:maxLevel="3"
+        android:minLevel="3"/>
+    <item
+        android:drawable="@drawable/icon_volume_04"
+        android:maxLevel="4"
+        android:minLevel="4"/>
+    <item
+        android:drawable="@drawable/icon_volume_05"
+        android:maxLevel="100"
+        android:minLevel="5"/>
+</level-list>

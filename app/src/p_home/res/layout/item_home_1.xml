@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="169dp"
+    android:paddingRight="15dp">
+
+    <ImageView
+        android:id="@+id/iv_hotel"
+        android:layout_width="110dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitXY"
+        tools:src="@drawable/ico_home" />
+
+    <View
+        android:id="@+id/v_divider"
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:background="#f2f2f2"
+        app:layout_constraintLeft_toRightOf="@+id/iv_hotel"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/textColor_28"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/v_divider"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="洛杉矶酒店" />
+
+    <TextView
+        android:id="@+id/tv_title_en"
+        android:layout_width="0dp"
+        android:layout_height="18dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="@color/textColor_28"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toLeftOf="@+id/v_divider"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTv"
+        tools:text="SABCdefg" />
+
+    <TextView
+        android:id="@+id/tv_rate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3.5dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#4E7CDD"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toLeftOf="@+id/v_divider"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_en"
+        tools:text="9.0 超棒" />
+
+    <TextView
+        android:id="@+id/tv_level"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:textColor="@color/textColor_84"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/tv_rate"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_rate"
+        tools:text="高档型" />
+
+    <TextView
+        android:id="@+id/tv_position"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6.5dp"
+        android:drawableLeft="@mipmap/hotel_list_icon_location"
+        android:drawablePadding="4dp"
+        android:textColor="@color/textColor_84"
+        android:textSize="11dp"
+        app:layout_constraintLeft_toLeftOf="@+id/v_divider"
+        app:layout_constraintTop_toBottomOf="@id/tv_rate"
+        tools:text="洛杉矶市中心" />
+
+    <View
+        android:id="@+id/v_divider1"
+        android:layout_width="0.5dp"
+        android:layout_height="11dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="2dp"
+        android:background="#f2f2f2"
+        app:layout_constraintBottom_toBottomOf="@id/tv_position"
+        app:layout_constraintLeft_toRightOf="@+id/tv_position" />
+
+    <TextView
+        android:id="@+id/tv_position_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/textColor_84"
+        android:textSize="11dp"
+        app:layout_constraintLeft_toRightOf="@+id/v_divider1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_position"
+        tools:text="距离洛杉矶中央图书馆201米" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        app:layout_constraintLeft_toLeftOf="@+id/v_divider"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_position" />
+
+    <TextView
+        android:id="@+id/tv_lastest_book"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#22BF66"
+        android:textSize="11dp"
+        app:layout_constraintLeft_toLeftOf="@+id/v_divider"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rv_label"
+        tools:text="最新预订：1小时前" />
+
+    <TextView
+        android:id="@+id/tv_rest_hotel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:drawableLeft="@mipmap/hotel_list_icon_remainder"
+        android:drawablePadding="4dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#FF6E1E"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="仅剩3间" />
+
+    <TextView
+        android:id="@+id/tv_price_real"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#F0240E"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_rest_hotel"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="￥ 1650" />
+
+    <TextView
+        android:id="@+id/tv_price_discount"
+        android:layout_width="42dp"
+        android:layout_height="18dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="2dp"
+        android:background="@mipmap/hotel_tips_discount"
+        android:gravity="center"
+        android:paddingRight="6dp"
+        android:textColor="@color/full_white"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_price_real"
+        app:layout_constraintRight_toLeftOf="@id/tv_price_real"
+        tools:text="9.5折" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#c6c6c6"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_price_real"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="￥1750" />
+</android.support.constraint.ConstraintLayout>

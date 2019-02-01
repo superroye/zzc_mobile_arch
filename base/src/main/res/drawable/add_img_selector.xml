@@ -1,0 +1,20 @@
+<!-- res/drawable/bg_layout_navigation.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+      >
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="#e5FFFFFF" />
+            <stroke android:color="#dedede" android:width="1px"/>
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#e5FFFFFF" />
+            <stroke android:color="#dedede" android:width="1px"/>
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+
+</selector>

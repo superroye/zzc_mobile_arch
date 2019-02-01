@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--选中加粗效果:未选中0.5dp;选中1dp;错误disabled:红色-->
+    <item
+        android:state_enabled="true" android:state_selected="true">
+        <shape>
+            <solid android:color="@color/zzc_blue_4e7cdd"/>
+            <size android:height="1dp"/>
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/layer_line_horizontal" android:state_enabled="true" android:state_selected="false"/>
+
+    <item
+        android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/zzc_red_f24c3d"/>
+            <size android:height="1dp"/>
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/layer_line_horizontal"/>
+</selector>

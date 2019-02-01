@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_tab_zuche">國際租車</string>
+    <string name="home_tab_poi">門票玩樂</string>
+
+    <string name="common_search">搜尋</string>
+    <string name="rent_car_bottom_tip1">7x24小時客服</string>
+    <string name="rent_car_bottom_tip2">免信用卡手續費</string>
+    <string name="rent_car_bottom_tip3">訂單免費取消</string>
+
+    <string name="rent_car_assistant_btn_text">查看取車乾貨</string>
+
+    <!--默认取还车城市-->
+    <string name="default_country">美國</string>
+    <string name="default_city">洛杉磯</string>
+    <string name="default_landmark">洛杉磯國際機場</string>
+
+    <string name="pick_up_city">取車城市</string>
+    <string name="pick_up_landmark">取車地點</string>
+    <string name="pick_up_time">取車時間</string>
+    <string name="pick_up_time_local">當地取車時間</string>
+
+    <string name="return_city">還車城市</string>
+    <string name="return_landmark">還車地點</string>
+    <string name="return_time">還車時間</string>
+    <string name="return_time_local">當地還車時間</string>
+
+    <string name="return_in_other_place">異地還車</string>
+
+    <string name="home_search">搜尋</string>
+    <string name="home_history">瀏覽記錄</string>
+    <string name="home_history_count">有%1$s條記錄</string>
+    <string name="home_shanzu_tips">全程中文服務 · 0押金· 免費駕駛服務</string>
+    <string name="home_reviews_tips">是心得，是建議，更是自駕旅遊攻略</string>
+    <string name="home_reviews_share">精華分享</string>
+    <string name="home_topic">精選活動</string>
+    <string name="app_home_title">租車預訂</string>
+    <string name="app_home_guide_question">海外租車有疑問？</string>
+    <string name="app_home_guide_answer">駕照、取還車、保險、交規、加油3分鐘上手</string>
+    <string name="app_home_driving_goods">乾貨</string>
+    <string name="app_home_driving_read">當地自駕必讀</string>
+    <string name="app_home_driving">正在當地自駕</string>
+    <string name="app_home_driving_strategy">自駕攻略</string>
+    <string name="app_home_driving_circle">自駕圈</string>
+    <string name="app_home_strip">條</string>
+
+    <string name="app_home_choose_driver_age">選擇駕駛員年齡</string>
+    <string name="app_home_driver_age">駕駛員年齡</string>
+    <string name="app_home_driver_why">為什麽要填寫駕駛員年齡</string>
+    <string name="app_home_driver_ask">駕駛員年齡小於%1$d或大於%2$d時，車行很可能會收取壹筆額外的費用，詳情以車行政策為準</string>
+    <string name="app_home_driver_age_value">%1$s歲</string>
+
+    <string name="home_hot_destination_title">人氣目的地 優惠價格</string>
+
+    <!--POI-->
+    <string name="poi_default_dest">黃金海岸</string>
+    <string name="poi_search_hint">迪士尼</string>
+    <string name="poi_destination_search_hot_word">目的地/商品名稱</string>
+    <string name="poi_recommend">推薦理由：</string>
+    <string name="app_home_poi_title">門票玩樂預訂</string>
+    <string name="poi_grow_grass_title">我們還未在此種草</string>
+    <string name="poi_grow_grass_sub_title">點擊下面按鈕，吩咐老司機為您尋找</string>
+    <string name="poi_grass_driver">吩咐老司機</string>
+
+    <!--酒店-->
+    <string name="hotel_date_out">離店日期</string>
+    <string name="hotel_search_hint">關鍵字/地名/酒店名（選填）</string>
+    <string name="hotel_search">搜尋酒店</string>
+    <string name="app_home_hotel_title">酒店預訂</string>
+    <string name="app_home_hotel_select_date_limit">入住天數不能超過14晚</string>
+
+    <!--優惠券彈窗-->
+    <string name="coupon_yuan">價值%1$s</string>
+    <string name="coupon_input_phone">請輸入您的手機號碼</string>
+    <string name="coupon_input_email">請輸入您的郵箱地址</string>
+    <string name="coupon_input_pwd">請設置登錄密碼</string>
+    <string name="coupon_input_captcha_graphic">請輸入右邊的圖形驗證碼</string>
+    <string name="coupon_input_captcha_phone">請輸入短信驗證碼</string>
+    <string name="coupon_input_captcha_email">請輸入郵箱驗證碼</string>
+    <string name="coupon_send_captcha">發送驗證碼</string>
+    <string name="coupon_resend_captcha">重新發送(%1$d)</string>
+    <string name="coupon_pick">限時領取</string>
+    <string name="coupon_pick_pwd">立即領取</string>
+    <string name="coupon_return">返回重試</string>
+    <string name="coupon_pick_succeed">領取成功</string>
+    <string name="coupon_set_pwd">僅差壹步，設置登錄密碼點擊領取！</string>
+    <string name="coupon_pick_succeed_desc">壹大波優惠劵已保存到您的個人中心優惠劵裏</string>
+    <string name="coupon_pick_failed">領取失敗</string>
+    <string name="coupon_pick_failed_desc">抱歉，服務器出了小差，請再試多壹次</string>
+    <string name="coupon_pick_again_desc">您已領過該優惠禮包，快去使用吧！</string>
+
+    <!--首页多语言弹窗-->
+    <string name="lang_earth_flag">文字說明以當地語言展示</string>
+    <string name="lang_price_flag">價格以當地貨幣展示</string>
+    <string name="lang_card_flag">Visa/Master支付免信用卡手續費</string>
+    <string name="lang_switch_failed">切換語言失敗，請稍候再試</string>
+
+    <!--首页通知开关提醒弹窗-->
+    <string name="dialog_notify_switch_item_sales">快人一步收到促銷信息</string>
+    <string name="dialog_notify_switch_item_service">在線客服回復有提醒</string>
+    <string name="dialog_notify_switch_item_order">實時掌握訂單最新動態</string>
+    <string name="dialog_notify_switch_btn_open">開啟推送通知</string>
+
+    <string name="home_page">首頁</string>
+    <string name="my_order">我的訂單</string>
+    <string name="message">消息</string>
+    <string name="share">分享</string>
+    <string name="customer_service">客服中心</string>
+
+    <!-- 取还车城市 -->
+    <string name="city_search_hint">請輸入城市/機場/火車站/酒店名</string>
+    <string name="city_search_empty">沒有找到對應的城市，換個關鍵詞試試吧</string>
+    <string name="city_search_default_desc">爲了提高搜索的准確性，請輸入至少兩個中文/字母</string>
+    <string name="history">歷史</string>
+    <string name="history_search">歷史搜索</string>
+    <string name="re_search">重新搜尋</string>
+
+    <string name="poi_operation_area">優惠專區</string>
+
+</resources>

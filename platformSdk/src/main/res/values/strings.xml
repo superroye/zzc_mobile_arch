@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">general_platform</string>
+
+    <!-- permissions -->
+    <string name="common_permission_message">没有%1$s权限，前往开启？</string>
+    <string name="common_permission_resume_message">没有%1$s权限，前往开启？</string>
+    <string name="common_permission_calls">电话</string>
+    <string name="common_permission_camera">相机</string>
+    <string name="common_permission_camera_doc">相机、文件</string>
+    <string name="common_permission_album_doc">相册、文件</string>
+    <string name="common_permission_camera_failed">打开相机失败</string>
+    <string name="common_permission_album_failed">打开相册失败</string>
+    <string name="common_permission_location">位置信息</string>
+    <string name="common_title_tips">请授权%1$s权限</string>
+
+    <string name="common_setting">设置</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_tips">提示</string>
+    <string name="common_resume">恢复</string>
+    <string name="common_floatwindow">浮窗</string>
+</resources>

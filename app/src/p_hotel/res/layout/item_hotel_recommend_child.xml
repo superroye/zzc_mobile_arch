@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/vg_easy_rent_1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="113dp"
+    android:layout_marginRight="1dp"
+    android:layout_weight="1"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="1dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <ImageView
+        android:id="@+id/iv_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/zzc_placeholder_bg"
+        android:contentDescription="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon_wheel_dddddd" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/shape_bg_poi_goods_mask" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_recommend_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:text="国际驾照翻译认证件" />
+
+        <TextView
+            android:id="@+id/tv_recommend_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/full_white"
+            android:textSize="11dp"
+            tools:text="免费领取 同行200国" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="DialogAnim.Default">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <style name="Dialog.MatchParent" parent="Dialog.Transparent.NonDim">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <style name="Dialog.MatchParent.Bottom">
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+    </style>
+
+    <!-- 自定义对话框样式 -->
+    <style name="Dialog.Alert" parent="Dialog.Transparent"/>
+
+    <!-- 自定义对话框标题样式 -->
+    <style name="Dialog.Alert.title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/textColor_28</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">5dp</item>
+    </style>
+
+    <!-- 自定义对话框消息样式 -->
+    <style name="Dialog.Alert.msg">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColor_a4</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:autoLink">phone|web</item>
+        <item name="android:textColorLink">@color/zzc_blue_254fcb</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+    </style>
+
+    <!-- 自定义对话框操作按钮样式 -->
+    <style name="Dialog.Alert.btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:background">@drawable/level_bg_dialog_item_alert</item>
+    </style>
+
+
+</resources>

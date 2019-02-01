@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/bg_launcher"/>
+
+    <item
+        android:bottom="188dp"
+        android:gravity="center">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/icon_zzc_wheel_01"/>
+    </item>
+
+    <item
+        android:id="@+id/icon_launch_loading"
+        android:bottom="225dp"
+        android:gravity="center"
+        android:right="103dp">
+        <rotate
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:fromDegrees="0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="360"
+            android:visible="true">
+            <bitmap
+                android:gravity="center"
+                android:src="@drawable/icon_zzc_wheel_02"/>
+        </rotate>
+    </item>
+
+    <!--<item
+        android:bottom="60dp"
+        android:gravity="bottom">
+        <bitmap
+            android:gravity="bottom"
+            android:src="@drawable/icon_channel_pp_wandoujia"/>
+    </item>-->
+
+</layer-list>

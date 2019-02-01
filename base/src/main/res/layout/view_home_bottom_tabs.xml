@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zzc.mobilearch.uilibs.widget.badgetab.BadgeTabLayout
+    android:id="@+id/home_tab_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar_height"
+    android:orientation="horizontal"
+    app:checkedTab="@id/tab_home"
+    tools:background="@color/colorTabbar">
+
+    <com.zzc.mobilearch.uilibs.widget.badgetab.BadgeTabView
+        android:id="@id/tab_home"
+        style="@style/BadgeTabView"
+        app:src="@drawable/selector_icon_home"
+        app:text="@string/app_home"
+        tools:badge_visible="true"/>
+
+    <com.zzc.mobilearch.uilibs.widget.badgetab.BadgeTabView
+        android:id="@id/tab_destination"
+        style="@style/BadgeTabView"
+        app:src="@drawable/selector_icon_destination"
+        app:text="@string/app_destination"
+        tools:badge_text="2"
+        tools:badge_visible="true"/>
+
+    <com.zzc.mobilearch.uilibs.widget.badgetab.BadgeTabView
+        android:id="@id/tab_mine"
+        style="@style/BadgeTabView"
+        app:src="@drawable/selector_icon_mine"
+        app:text="@string/app_mine"
+        tools:badge_visible="true"/>
+
+</com.zzc.mobilearch.uilibs.widget.badgetab.BadgeTabLayout>

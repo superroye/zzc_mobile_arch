@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="driving_group_chat_header_title">%s人正在自駕</string>
+    <string name="driving_group_chat_header_admin">管理員入口</string>
+    <string name="driving_group_chat_list_header_title_hot">熱門圈子</string>
+    <string name="driving_group_chat_list_header_title_my">我的圈子</string>
+    <string name="driving_group_chat_list_header_sub_title">99+個圈子正在熱聊，租車立即加群交流</string>
+    <string name="driving_group_chat_list_item_group_state_recommend_join">推薦加入</string>
+
+</resources>

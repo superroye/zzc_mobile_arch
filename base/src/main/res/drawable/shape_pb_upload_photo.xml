@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape
+            android:shape="rectangle">
+
+            <!-- 实心 -->
+            <solid android:color="@color/bg_03"/>
+            <!-- 设置按钮的四个角为弧形 -->
+            <corners
+                android:radius="8dp"/>
+            <size android:height="16dp"/>
+
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <scale android:scaleWidth="100%">
+            <shape
+                android:shape="rectangle">
+
+                <!-- 实心 -->
+                <solid android:color="#22BF66"/>
+                <!-- 设置按钮的四个角为弧形 -->
+                <corners
+                    android:radius="8dp"/>
+                <size android:height="16dp"/>
+
+            </shape>
+
+        </scale>
+    </item>
+</layer-list>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="captcha_to">验证短信发送至&#160;%1$s</string>
+    <string name="captcha_input">输入验证码</string>
+    <string name="captcha_error">请输入正确的验证码</string>
+    <string name="captcha_resend">重新发送</string>
+    <string name="captcha_waiting">%1$ss后重新获取</string>
+    <string name="captcha_send_error">验证码发送失败，请重新发送</string>
+    <string name="captcha_check_error">验证码过期，请重新获取</string>
+    <string name="captcha_reminder_message_login">返回将中断登录，确定退出?</string>
+    <string name="captcha_reminder_message_bind">返回将中断手机绑定，确定退出?</string>
+
+    <string name="graphic_captcha_dialog_title">请输入图形验证码</string>
+    <string name="graphic_captcha_dialog_refresh">点击图片刷新</string>
+    <string name="graphic_captcha_dialog_hint">请输入验证码</string>
+    <string name="graphic_captcha_dialog_error">获取图形验证码失败，请重新获取</string>
+
+    <string name="logout_tip">已退出登录</string>
+    <string name="login">登录</string>
+    <string name="logining">登录中</string>
+    <string name="login_failed">登录失败，请重新登录</string>
+    <string name="login_title_quick">欢迎来到租租车</string>
+    <string name="login_title_quick_topbar">登录/注册</string>
+    <string name="login_title_bind">手机号码绑定</string>
+    <string name="login_next_step">下一步</string>
+    <string name="login_input_phone_number">请输入手机号码</string>
+    <string name="login_input_email">请输入邮箱地址</string>
+    <string name="login_input_password">请输入密码</string>
+    <string name="login_phone_error">请输入正确的手机号码</string>
+    <string name="login_email_error">请输入正确的邮箱</string>
+    <string name="login_pwd_error">请输入正确的密码</string>
+    <string name="login_by_password">密码登录</string>
+    <string name="login_by_phone">手机登录</string>
+    <string name="login_by_email">邮箱登录</string>
+    <string name="login_kindly_reminder">温馨提示</string>
+    <string name="login_agreement_guide">注册/登录即代表您已同意</string>
+    <string name="login_agreement_name">《租租车用户协议》</string>
+
+    <string name="wechat_auth_error">授权失败，请重试</string>
+    <string name="wechat_auth_cancel">您已取消微信登录</string>
+    <string name="wechat_auth_cancel2">您已取消微信授权</string>
+    <string name="wechat_auth_ing">微信授权中</string>
+
+    <string name="bing_reminder_message">您输入的手机号已被占用\n请确认是否输入有误</string>
+    <string name="bing_reminder_btn_positive">重新输入</string>
+    <string name="bing_reminder_btn_negative">手机号登录</string>
+
+    <string name="phone_region">国家/地区</string>
+    <string name="phone_region_code">%1$s&#160;&#160;+%2$s</string>
+    <string name="phone_code">+%1$s</string>
+    <string name="zzc_agreement_title">租租车用户协议</string>
+
+    <string name="ali_security_failed">操作有误，请重试</string>
+    <string name="phone_format">%1$s-%2$s</string>
+
+</resources>

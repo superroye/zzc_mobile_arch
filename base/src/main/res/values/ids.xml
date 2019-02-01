@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- StatusBarUtils -->
+    <item name="statusbarutil_fake_status_bar_view" type="id" />
+    <item name="statusbarutil_translucent_view" type="id" />
+
+    <item name="webview_one" type="id" />
+    <item name="webview_two" type="id" />
+    <item name="webview_three" type="id" />
+    <item name="webview_four" type="id" />
+    <item name="webview_five" type="id" />
+    <item name="webview_six" type="id" />
+    <item name="common_viewpager" type="id" />
+
+    <!-- 首页的webview id-->
+    <item name="home_webview" type="id" />
+    <item name="mine_webview" type="id" />
+    <item name="service_webview" type="id" />
+    <item name="group_webview" type="id" />
+    <item name="group_qa_webview" type="id" />
+    <item name="destination_webview" type="id" />
+
+    <!-- 首页底部tab id-->
+    <item name="home_tab_layout" type="id" />
+    <item name="tab_home" type="id" />
+    <item name="tab_group" type="id" />
+    <item name="tab_service" type="id" />
+    <item name="tab_mine" type="id" />
+    <item name="tab_destination" type="id" />
+    <item name="tab_bg" type="id" />
+
+    <!-- BadgeTabLayout -->
+    <item name="BadgeTabLayout_icon" type="id" />
+    <item name="BadgeTabLayout_text" type="id" />
+    <item name="BadgeTabLayout_badge" type="id" />
+
+    <!-- 取还车地点 -->
+    <item name="landmark_choose_list" type="id" />
+    <item name="landmark_choose_map" type="id" />
+    <item name="landmark_choose_search" type="id" />
+
+    <item name="iv_topbar_right" type="id" />
+    <item name="iv_topbar_right_transparent" type="id" />
+
+</resources>

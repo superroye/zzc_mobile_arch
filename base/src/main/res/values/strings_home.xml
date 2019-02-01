@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_tab_zuche">国际租车</string>
+    <string name="home_tab_poi">门票玩乐</string>
+    <string name="home_tab_hotel">酒店</string>
+
+    <!--默认取还车城市-->
+    <string name="default_state">美洲</string>
+    <string name="default_country">美国</string>
+    <string name="default_city">洛杉矶</string>
+    <string name="default_landmark">洛杉矶国际机场</string>
+
+    <string name="pick_up_city">取车城市</string>
+    <string name="pick_up_landmark">取车地点</string>
+    <string name="pick_up_time">取车时间</string>
+    <string name="pick_up_time_local">当地取车时间</string>
+
+    <string name="return_city">还车城市</string>
+    <string name="return_landmark">还车地点</string>
+    <string name="return_time">还车时间</string>
+    <string name="return_time_local">当地还车时间</string>
+
+    <string name="return_in_other_place">异地还车</string>
+
+    <string name="rent_car_bottom_tip1">7x24小时客服</string>
+    <string name="rent_car_bottom_tip2">免信用卡手续费</string>
+    <string name="rent_car_bottom_tip3">订单免费取消</string>
+
+    <string name="rent_car_assistant_btn_text">查看取车干货</string>
+
+    <string name="home_search">搜索</string>
+    <string name="home_history">浏览记录</string>
+    <string name="home_history_count">有%1$s条记录</string>
+    <string name="home_shanzu_tips">全程中文服务 · 0押金 · 免费驾驶指导</string>
+    <string name="home_reviews_tips">是心得，是建议，更是自驾旅游攻略</string>
+    <string name="home_reviews_share">精华分享</string>
+    <string name="home_topic">精选活动</string>
+    <string name="app_home_title">租车预订</string>
+    <string name="app_home_guide_question">海外租车有疑问？</string>
+    <string name="app_home_guide_answer">驾照、取还车、保险、交规、加油3分钟上手</string>
+    <string name="app_home_guide_tip">新手指引</string>
+    <string name="app_home_driving_goods">干货</string>
+    <string name="app_home_driving_persion">人</string>
+    <string name="app_home_driving_read">当地自驾必读</string>
+    <string name="app_home_driving">正在当地自驾</string>
+    <string name="app_home_driving_strategy">自驾攻略</string>
+    <string name="app_home_driving_circle">自驾圈</string>
+    <string name="app_home_strip">条</string>
+
+    <string name="app_home_choose_driver_age">选择驾驶员年龄</string>
+    <string name="app_home_driver_age">驾驶员年龄</string>
+    <string name="app_home_driver_why">为什么要填写驾驶员年龄</string>
+    <string name="app_home_driver_ask">驾驶员年龄小于%1$d或大于%2$d时，车行很可能会收取一笔额外的费用，详情以车行政策为准</string>
+    <string name="app_home_driver_age_value">%1$s岁</string>
+
+    <string name="home_hot_destination_title">人气目的地 优惠价格</string>
+    <string name="home_hot_destination_unit">/天起</string>
+
+    <!--POI-->
+    <string name="poi_default_dest">黄金海岸</string>
+    <string name="poi_search_hint">迪士尼</string>
+    <string name="poi_destination_search_hot_word">目的地/商品名称</string>
+    <string name="poi_recommend">推荐理由：</string>
+    <string name="app_home_poi_title">门票玩乐预订</string>
+    <string name="poi_grow_grass_title">我们还未在此种草</string>
+    <string name="poi_grow_grass_sub_title">点击下面按钮，吩咐老司机为您寻找</string>
+    <string name="poi_grass_driver">吩咐老司机</string>
+
+    <!--优惠券弹窗-->
+    <string name="coupon_yuan">价值%1$s</string>
+    <string name="coupon_input_phone">请输入您的手机号码</string>
+    <string name="coupon_input_email">请输入您的邮箱地址</string>
+    <string name="coupon_input_pwd">请设置登录密码</string>
+    <string name="coupon_input_captcha_graphic">请输入右边的图形验证码</string>
+    <string name="coupon_input_captcha_phone">请输入短信验证码</string>
+    <string name="coupon_input_captcha_email">请输入邮箱验证码</string>
+    <string name="coupon_send_captcha">发送验证码</string>
+    <string name="coupon_resend_captcha">重新发送(%1$d)</string>
+    <string name="coupon_pick">限时领取</string>
+    <string name="coupon_pick_pwd">立即领取</string>
+    <string name="coupon_return">返回重试</string>
+    <string name="coupon_pick_succeed">领取成功</string>
+    <string name="coupon_set_pwd">仅差一步，设置登录密码点击领取！</string>
+    <string name="coupon_pick_succeed_desc">一大波优惠劵已保存到您的个人中心优惠劵里</string>
+    <string name="coupon_pick_failed">领取失败</string>
+    <string name="coupon_pick_failed_desc">抱歉，服务器出了小差，请再试多一次</string>
+    <string name="coupon_pick_again_desc">您已领过该优惠礼包，快去使用吧！</string>
+    <string name="coupon_use_right_away">立即使用</string>
+
+    <!--首页多语言弹窗-->
+    <string name="lang_earth_flag">文字说明以当地语言展示</string>
+    <string name="lang_price_flag">价格以当地货币展示</string>
+    <string name="lang_card_flag">Visa/Master支付免信用卡手续费</string>
+    <string name="lang_text_tip">诚邀您切换至繁体版本使用</string>
+    <string name="lang_switch_failed">切换语言失败，请稍候再试</string>
+
+    <!--首页多语言弹窗-固定文字-->
+    <string name="lang_hk_language">香港繁體(HKD)</string>
+    <string name="lang_tw_language">台灣繁體(TWD)</string>
+    <string name="lang_cn_language">简体中文(￥)</string>
+
+    <!--首页通知开关提醒弹窗-->
+    <string name="dialog_notify_switch_item_sales">快人一步收到促销信息</string>
+    <string name="dialog_notify_switch_item_service">在线客服回复有提醒</string>
+    <string name="dialog_notify_switch_item_order">实时掌握订单最新动态</string>
+    <string name="dialog_notify_switch_btn_open">开启推送通知</string>
+
+    <string name="home_page">首页</string>
+    <string name="my_order">我的订单</string>
+    <string name="message">消息</string>
+    <string name="share">分享</string>
+    <string name="customer_service">客服中心</string>
+
+    <!-- 取还车城市 -->
+    <string name="city_search_hint">请输入城市/机场/火车站/酒店名</string>
+    <string name="city_search_empty">没有找到对应的城市，换个关键词试试吧</string>
+    <string name="city_search_default_desc">为了提高搜索的准确性，请输入至少两个中文/字母</string>
+    <string name="history">历史</string>
+    <string name="history_search">历史搜索</string>
+    <string name="rent_time">租期</string>
+    <string name="re_search">重新搜索</string>
+
+    <!-- poi -->
+    <string name="poi_refresh">刷新</string>
+    <string name="poi_net_error">网络好像不太顺畅呢，刷新试试～</string>
+    <string name="poi_loading_txt">正在为您生成专属推荐好玩&#8230;</string>
+    <string name="poi_operation_area">优惠专区</string>
+
+    <!-- 酒店 -->
+    <string name="hotel_my_position">我的位置</string>
+    <string name="hotel_date_in">入住日期</string>
+    <string name="hotel_date_out">离店日期</string>
+    <string name="hotel_search_hint">关键字/地名/酒店名（选填）</string>
+    <string name="hotel_search">搜索酒店</string>
+    <string name="app_home_hotel_title">酒店预订</string>
+    <string name="app_home_hotel_select_date_limit">入住天数不能超过14晚</string>
+
+    <!--自驾圈问答-->
+    <string name="zjq_my_qa">我的问答</string>
+    <string name="zjq_find_answer">输入你的问题，也许车友们问过</string>
+    <string name="zjq_ask">提问</string>
+    <string name="zjq_topic">精选问答</string>
+    <string name="zjq_recommend">推荐问答</string>
+    <string name="zjq_tobe_answer">待回答</string>
+    <string name="zjq_country">热门自驾目的地</string>
+    <string name="zjq_rank">自驾达人总榜</string>
+    <string name="zjq_rank2">自驾达人榜</string>
+    <string name="zjq_my_answer">我来回答</string>
+    <string name="zjq_my_answer2">回答</string>
+    <string name="zjq_help_ratio">%用户得到帮助</string>
+    <string name="zjq_qa">自驾圈问答</string>
+    <string name="zjq_name">自驾圈\n懂自驾的都在这里。</string>
+    <string name="zjq_unanswer_question">邀请你回答</string>
+    <string name="zjq_unanswer_question_content">消灭0回答，让车友安心自驾</string>
+    <string name="zjq_unanswer_question_more">查看更多</string>
+    <string name="zjq_use_car">用车阶段</string>
+    <string name="zjq_more_answer">更多问答</string>
+    <string name="zjq_select_group">选择自驾圈</string>
+    <string name="zjq_cur_group">当前</string>
+    <string name="zjq_all_group">全部自驾圈</string>
+
+    <!--问答时间规则-->
+    <string name="zjq_just">刚刚</string>
+    <string name="zjq_minute">分钟前</string>
+    <string name="zjq_hour">小时前</string>
+    <string name="zjq_day">昨天</string>
+
+    <!--上拉加载更多状态-->
+    <string name="zjq_more">更多</string>
+    <string name="zjq_loading_more">正在加载中&#8230;</string>
+    <string name="zjq_no_more">没有更多</string>
+    <string name="zjq_load_fail">加载失败,点击重试</string>
+
+</resources>

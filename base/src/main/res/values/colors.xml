@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/white</color>
+    <color name="colorPrimaryDark">#B9B9B9</color>
+    <color name="colorAccent">@color/main_blue</color>
+
+    <color name="colorTabbar">#121416</color>
+
+    <!-- 页面背景 -->
+    <color name="bg_01">#ededed</color>
+    <color name="bg_02">#f0f0f0</color>
+    <color name="bg_03">#f0f1f3</color>
+    <color name="bg_04">#F6F6F6</color>
+
+    <!-- 点击 状态色 -->
+    <color name="bg_item_pressed">#f7f7f7</color>
+    <color name="bg_item_pressed_coupon">#fff2df</color>
+    <color name="bg_item_ripple">#d9d9d9</color>
+    <!-- 透明 -->
+    <color name="transparent">@android:color/transparent</color>
+    <!-- 白色 -->
+    <color name="white">@android:color/white</color>
+    <color name="full_white">@android:color/white</color>
+    <!-- 白色 70%-->
+    <color name="white_0_70">#b3ffffff</color>
+    <!-- 黑色 40%-->
+    <color name="black_0_40">#66000000</color>
+    <!-- 黑色 -->
+    <color name="black">@android:color/black</color>
+
+    <color name="main_gray">#a0a9b0</color>
+    <color name="main_red">#ed453a</color>
+    <color name="main_orange">#ff9902</color>
+    <color name="main_green">#3dcc85</color>
+    <color name="main_blue">#6096F1</color>
+    <color name="main_blue_h">#B26096F1</color>
+    <color name="main_golden">#cca15c</color>
+
+    <color name="textColor_19">#191919</color>
+    <color name="textColor_28">#282828</color>
+    <color name="textColor_33">#333333</color>
+    <color name="textColor_42">#424242</color>
+    <color name="textColor_66">#666666</color>
+    <color name="textColor_99">#999999</color>
+    <color name="textColor_c6">#c6c6c6</color>
+    <color name="textColor_c9">#c9c9c9</color>
+    <color name="textColor_cc">#cccccc</color>
+    <color name="textColor_a0">#a0a9c0</color>
+    <color name="textColor_a4">#a4a4a4</color>
+    <color name="textColor_84">#848484</color>
+
+    <color name="pale_white0">#f3f5f6</color>
+
+    <color name="pickup_dropoff_dialog_btn">#EAEAEA</color>
+    <color name="pickup_dropoff_dialog_text_select">#fff</color>
+    <color name="pickup_dropoff_dialog_text">#AAAAAA</color>
+
+    <color name="common_divider">@color/bg_02</color>
+
+    <!-- 背景色 -->
+    <color name="color_bg">#eeeeee</color>
+    <!-- 分割线颜色 -->
+    <color name="line_color">#D8D8D8</color>
+    <!-- 对话框标题分割线颜色 -->
+    <!-- 通知页面相关颜色-->
+    <color name="notify_tab_blue">#43b1ee</color>
+    <color name="notify_content_not_read">#585858</color>
+
+    <color name="transparent_background">#50000000</color>
+
+    <color name="bg_top_bar">#233791</color>
+    <color name="destine_car_text">#31448e</color>
+    <color name="chat_choose_bg">#aaaaaa</color>
+
+    <!--zzc color blue-->
+    <color name="zzc_blue_4e7cdd">#4E7CDD</color>
+    <color name="zzc_blue_4e7cdd_helf">#804E7CDD</color>
+    <color name="zzc_blue_3e63b0">#3e63b0</color>
+    <color name="zzc_blue_edf1fb">#edf1fb</color>
+
+    <color name="zzc_blue_86abff">#86abff</color>
+    <color name="zzc_blue_86abff_helf">#8086abff</color>
+    <color name="zzc_blue_6b88cc">#6b88cc</color>
+    <color name="zzc_blue_f2f6ff">#f2f6ff</color>
+
+    <color name="zzc_blue_254fcb">#254fcb</color>
+    <color name="zzc_blue_254fcb_helf">#80254fcb</color>
+    <color name="zzc_blue_1d3fa2">#1d3fa2</color>
+    <color name="zzc_blue_e9edf9">#e9edf9</color>
+    <color name="zzc_blue_476bd7">#476bd7</color>
+
+    <!--zzc color red-->
+    <color name="zzc_red_f0240e">#F0240E</color>
+    <color name="zzc_red_f0240e_helf">#80F0240E</color>
+    <color name="zzc_red_f40256">#F40256</color>
+    <color name="zzc_red_f40256_helf">#80f40256</color>
+    <color name="zzc_red_c30144">#c30144</color>
+    <color name="zzc_red_fde5ee">#fde5ee</color>
+
+    <color name="zzc_red_ff5a82">#ff5a82</color>
+    <color name="zzc_red_ff5a82_helf">#80ff5a82</color>
+    <color name="zzc_red_cc4868">#cc4868</color>
+    <color name="zzc_red_ffeef2">#ffeef2</color>
+
+    <color name="zzc_red_cc0033">#cc0033</color>
+    <color name="zzc_red_cc0033_helf">#cc0033</color>
+    <color name="zzc_red_a30028">#a30028</color>
+    <color name="zzc_red_f9e5ea">#F9E5EA</color>
+
+    <color name="zzc_red_f24c3d">#f24c3d</color>
+    <color name="zzc_red_fb5b42">#fb5b42</color>
+    <color name="zzc_red_f7806a">#f7806a</color>
+
+    <!--zzc color yellow-->
+    <color name="zzc_yellow_ffcc00">#ffcc00</color>
+    <!--zzc color orange-->
+    <color name="zzc_orange_f5a523">#f5a523</color>
+    <!--zzc color gray-->
+    <color name="zzc_gray_c6c6cb">#c6c6cb</color>
+    <color name="zzc_gray_ececf0">#ECECF0</color>
+
+</resources>

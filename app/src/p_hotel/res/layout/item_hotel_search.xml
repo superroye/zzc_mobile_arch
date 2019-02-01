@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_04"
+                android:visibility="visible">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_zzc_wheel_03"
+            app:tint="@color/textColor_c6"
+            app:tintMode="src_in" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/icon_zzc_wheel_02"
+            app:tint="@color/textColor_c6"
+            app:tintMode="src_in" />
+    </FrameLayout>
+
+    <include
+        layout="@layout/include_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        tools:background="@color/main_green" />
+
+    <LinearLayout
+        android:id="@+id/ll_banner_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="5.5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:background="@color/white_0_70"
+        tools:layout_height="3dp"
+        tools:layout_width="115dp"
+        tools:visibility="visible" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-2dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="110dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="0dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/vg_search_poi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.zuzuChe.feature.home.support.widget.HomeTabsView
+                android:id="@+id/homeTabsView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:tag="hotel" />
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/tv_hotel_myposition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_marginRight="15dp"
+                    android:drawableLeft="@mipmap/hotel_icon_nearby"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/textColor_28"
+                    android:textColorHint="@color/textColor_c6"
+                    android:textSize="14dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="@string/hotel_my_position" />
+
+                <View
+                    android:id="@+id/v_divider1"
+                    android:layout_width="0.5dp"
+                    android:layout_height="18dp"
+                    android:layout_marginBottom="18.5dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#F0F0F0"
+                    app:layout_constraintBottom_toBottomOf="@+id/tv_hotel_myposition"
+                    app:layout_constraintRight_toLeftOf="@+id/tv_hotel_myposition" />
+
+                <TextView
+                    android:id="@+id/tv_hotel_position_desc"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:textColor="@color/textColor_28"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="@id/v_divider1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="@string/hotel_my_position" />
+
+                <View
+                    android:id="@+id/v_divider2"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:background="#F0F0F0"
+                    app:layout_constraintLeft_toLeftOf="@id/tv_hotel_position_desc"
+                    app:layout_constraintRight_toRightOf="@id/tv_hotel_myposition"
+                    app:layout_constraintTop_toBottomOf="@id/tv_hotel_position_desc" />
+
+                <TextView
+                    android:id="@+id/tv_hotel_in_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/hotel_date_in"
+                    android:textColor="@color/textColor_84"
+                    android:textSize="12dp"
+                    app:layout_constraintLeft_toLeftOf="@id/tv_hotel_position_desc"
+                    app:layout_constraintTop_toBottomOf="@id/v_divider2" />
+
+                <TextView
+                    android:id="@+id/tv_hotel_out_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hotel_date_out"
+                    android:textColor="@color/textColor_84"
+                    android:textSize="12dp"
+                    app:layout_constraintLeft_toLeftOf="@id/tv_hotel_date_out"
+                    app:layout_constraintRight_toRightOf="@id/tv_hotel_myposition"
+                    app:layout_constraintTop_toTopOf="@id/tv_hotel_in_title" />
+
+                <TextView
+                    android:id="@+id/tv_hotel_date_in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/textColor_28"
+                    android:textSize="18dp"
+                    app:layout_constraintLeft_toLeftOf="@id/tv_hotel_position_desc"
+                    app:layout_constraintTop_toBottomOf="@id/tv_hotel_in_title"
+                    tools:text="10月10日" />
+
+                <TextView
+                    android:id="@+id/tv_hotel_date_out"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColor_28"
+                    android:textSize="18dp"
+                    app:layout_constraintRight_toRightOf="@id/tv_hotel_myposition"
+                    app:layout_constraintTop_toTopOf="@id/tv_hotel_date_in"
+                    tools:text="10月13日" />
+
+                <TextView
+                    android:id="@+id/tv_hotel_stay_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="27dp"
+                    android:background="@drawable/bg_circle_white_grey"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/textColor_28"
+                    android:textSize="12dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/v_divider2"
+                    tools:text="共3晚" />
+
+                <View
+                    android:id="@+id/v_divider3"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#F0F0F0"
+                    app:layout_constraintLeft_toLeftOf="@id/tv_hotel_position_desc"
+                    app:layout_constraintRight_toRightOf="@id/tv_hotel_myposition"
+                    app:layout_constraintTop_toBottomOf="@id/tv_hotel_date_in" />
+
+                <TextView
+                    android:id="@+id/tv_hotel_desc"
+                    android:layout_width="0dp"
+                    android:layout_height="52dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:textColor="@color/textColor_28"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="@id/tv_hotel_position_desc"
+                    app:layout_constraintTop_toBottomOf="@id/v_divider3"
+                    tools:text="1间，2成人，0儿童" />
+
+                <View
+                    android:id="@+id/v_divider4"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:background="#F0F0F0"
+                    app:layout_constraintLeft_toLeftOf="@id/tv_hotel_position_desc"
+                    app:layout_constraintRight_toRightOf="@id/tv_hotel_myposition"
+                    app:layout_constraintTop_toBottomOf="@id/tv_hotel_desc" />
+
+                <TextView
+                    android:id="@+id/et_hotel_search"
+                    android:layout_width="0dp"
+                    android:layout_height="52dp"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="@string/hotel_search_hint"
+                    android:maxLines="1"
+                    android:textColor="@color/textColor_28"
+                    android:textColorHint="@color/textColor_c6"
+                    android:textSize="16dp"
+                    app:layout_constraintLeft_toLeftOf="@id/tv_hotel_position_desc"
+                    app:layout_constraintRight_toLeftOf="@+id/clearIv"
+                    app:layout_constraintTop_toBottomOf="@id/v_divider4" />
+
+                <ImageView
+                    android:id="@+id/clearIv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:src="@mipmap/ic_city_search_clear"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/et_hotel_search"
+                    app:layout_constraintRight_toRightOf="@id/tv_hotel_myposition"
+                    app:layout_constraintTop_toTopOf="@+id/et_hotel_search"
+                    tools:visibility="visible" />
+
+                <View
+                    android:id="@+id/v_divider5"
+                    android:layout_width="0dp"
+                    android:layout_height="0.5dp"
+                    android:background="#F0F0F0"
+                    app:layout_constraintLeft_toLeftOf="@id/tv_hotel_position_desc"
+                    app:layout_constraintRight_toRightOf="@id/tv_hotel_myposition"
+                    app:layout_constraintTop_toBottomOf="@id/et_hotel_search" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="44dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@android:color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="@id/v_divider2"
+                    app:layout_constraintRight_toRightOf="@id/v_divider2"
+                    app:layout_constraintTop_toBottomOf="@id/v_divider5">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="4dp"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="false">
+
+                        <ImageView
+                            android:id="@+id/iv_search"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:visibility="invisible"
+                            tools:visibility="visible" />
+                    </android.support.v7.widget.CardView>
+
+                    <ImageView
+                        android:id="@+id/iv_search_featured"
+                        android:layout_width="101dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:scaleType="fitXY"
+                        android:visibility="invisible"
+                        tools:visibility="visible" />
+                </LinearLayout>
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_lang"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/selector_bg_lang"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/lang_cn"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</RelativeLayout>

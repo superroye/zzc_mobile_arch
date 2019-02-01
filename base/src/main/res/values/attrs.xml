@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- circle progress -->
+    <declare-styleable name="CircleProgress">
+        <attr name="circle_progress" format="integer"/>
+        <attr name="circle_max" format="integer"/>
+
+        <attr name="circle_unfinished_color" format="color"/>
+        <attr name="circle_finished_color" format="color"/>
+
+        <attr name="circle_text_size" format="dimension"/>
+        <attr name="circle_text_color" format="color"/>
+
+        <attr name="circle_prefix_text" format="string"/>
+        <attr name="circle_suffix_text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="DonutProgress">
+        <attr name="donut_progress" format="integer"/>
+        <attr name="donut_max" format="integer"/>
+
+        <attr name="donut_unfinished_color" format="color"/>
+        <attr name="donut_finished_color" format="color"/>
+
+        <attr name="donut_finished_stroke_width" format="dimension"/>
+        <attr name="donut_unfinished_stroke_width" format="dimension"/>
+
+        <attr name="donut_text_size" format="dimension"/>
+        <attr name="donut_text_color" format="color"/>
+
+        <attr name="donut_prefix_text" format="string"/>
+        <attr name="donut_suffix_text" format="string"/>
+        <attr name="donut_text" format="string"/>
+
+        <attr name="donut_background_color" format="color"/>
+
+        <attr name="donut_inner_bottom_text" format="string"/>
+        <attr name="donut_inner_bottom_text_size" format="dimension"/>
+        <attr name="donut_inner_bottom_text_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="ArcProgress">
+        <attr name="arc_progress" format="integer"/>
+        <attr name="arc_angle" format="float"/>
+        <attr name="arc_stroke_width" format="dimension"/>
+        <attr name="arc_max" format="integer"/>
+
+        <attr name="arc_unfinished_color" format="color"/>
+        <attr name="arc_finished_color" format="color"/>
+
+        <attr name="arc_text_size" format="dimension"/>
+        <attr name="arc_text_color" format="color"/>
+
+        <attr name="arc_suffix_text" format="string"/>
+        <attr name="arc_suffix_text_size" format="dimension"/>
+        <attr name="arc_suffix_text_padding" format="dimension"/>
+
+        <attr name="arc_bottom_text" format="string"/>
+        <attr name="arc_bottom_text_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="circleProgressStyle" format="reference"/>
+        <attr name="donutProgressStyle" format="reference"/>
+        <attr name="arcProgressStyle" format="reference"/>
+    </declare-styleable>
+
+    <bool name="isSmallTablet">false</bool>
+    <bool name="isBigTablet">false</bool>
+
+    <!-- 自定义验证码输入框-->
+    <declare-styleable name="CaptchaLayout">
+        <!--输入框的数量-->
+        <attr name="et_count" format="integer"/>
+        <!--输入类型-->
+        <attr name="et_inputType">
+            <enum name="number" value="0"/>
+            <enum name="numberPassword" value="1"/>
+            <enum name="text" value="2"/>
+            <enum name="textPassword" value="3"/>
+        </attr>
+        <!--输入框的宽高-->
+        <attr name="et_width" format="dimension"/>
+        <attr name="et_height" format="dimension"/>
+        <!--输入框背景-->
+        <attr name="et_background" format="reference|color"/>
+        <!--输入框文字颜色-->
+        <attr name="et_textColor" format="reference|color"/>
+        <!--输入框文字大小-->
+        <attr name="et_textSize" format="dimension"/>
+        <!--光标样式-->
+        <attr name="et_textCursorDrawable" format="reference"/>
+
+    </declare-styleable>
+
+    <!-- 自定义侧边导航控件-->
+    <declare-styleable name="SideIndexBar">
+        <attr name="labels" format="reference"/>
+        <attr name="label_textSize" format="dimension"/>
+        <attr name="label_textColor" format="reference|color"/>
+    </declare-styleable>
+
+    <declare-styleable name="SlideButton">
+        <attr name="isOpen" format="boolean"/>
+        <attr name="offColor" format="color"/>
+        <attr name="onColor" format="color"/>
+        <attr name="txtColor" format="color"/>
+        <attr name="btnColor" format="color"/>
+        <attr name="btnPadding" format="dimension"/>
+        <attr name="btnType" format="enum">
+            <enum name="inside" value="0"/>
+            <enum name="over" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- BadgeTabLayout-->
+    <declare-styleable name="BadgeTabLayout">
+        <attr name="checkedTab" format="integer"/>
+        <attr name="android:orientation"/>
+    </declare-styleable>
+
+    <!-- BadgeTabView-->
+    <declare-styleable name="BadgeTabView">
+        <attr name="checked" format="boolean"/>
+        <attr name="src" format="reference|color"/>
+        <attr name="src_margin" format="dimension"/>
+        <attr name="src_marginLeft" format="dimension"/>
+        <attr name="src_marginTop" format="dimension"/>
+        <attr name="src_marginRight" format="dimension"/>
+        <attr name="src_marginBottom" format="dimension"/>
+        <attr name="text" format="string" localization="suggested"/>
+        <attr name="textColor" format="reference|color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="text_margin" format="dimension"/>
+        <attr name="text_marginLeft" format="dimension"/>
+        <attr name="text_marginTop" format="dimension"/>
+        <attr name="text_marginRight" format="dimension"/>
+        <attr name="text_marginBottom" format="dimension"/>
+        <attr name="badge_visible" format="boolean"/>
+        <attr name="badge_background" format="reference|color"/>
+        <attr name="badge_minWH" format="dimension"/>
+        <attr name="badge_minWH_withText" format="dimension"/>
+        <attr name="badge_text" format="string" localization="suggested"/>
+        <attr name="badge_textColor" format="reference|color"/>
+        <attr name="badge_textSize" format="dimension"/>
+        <attr name="badge_margin" format="dimension"/>
+        <attr name="badge_marginLeft" format="dimension"/>
+        <attr name="badge_marginTop" format="dimension"/>
+        <attr name="badge_marginRight" format="dimension"/>
+        <attr name="badge_marginBottom" format="dimension"/>
+    </declare-styleable>
+
+
+</resources>

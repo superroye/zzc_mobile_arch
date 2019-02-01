@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+
+    <content src="index.html" />
+
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+
+    <!-- Don't block any requests -->
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <!-- Allow all unrecognized URLs to open installed apps
+         *NOT RECOMMENDED* -->
+    <allow-intent href="*" />
+
+    <access
+        launch-external="yes"
+        origin="tel:*" />
+    <access
+        launch-external="yes"
+        origin="geo:*" />
+    <access
+        launch-external="yes"
+        origin="mailto:*" />
+    <access
+        launch-external="yes"
+        origin="sms:*" />
+    <access
+        launch-external="yes"
+        origin="market:*" />
+    <preference
+        name="LoadUrlTimeoutValue"
+        value="20000" />
+    <preference
+        name="KeepRunning"
+        value="false" />
+    <feature name="Whitelist">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.WhitelistPlugin" />
+        <param
+            name="onload"
+            value="true" />
+    </feature>
+    <feature name="ZZCAppMoneyPay">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.PayPlugin" />
+    </feature>
+    <feature name="AppInfoPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.AppInfoPlugin" />
+    </feature>
+    <feature name="ToastPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.ToastPlugin" />
+    </feature>
+    <feature name="CalendarPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.CalendarPlugin" />
+    </feature>
+    <feature name="AreaSelectPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.AreaSelectPlugin" />
+    </feature>
+    <feature name="AccountPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.AccountPlugin" />
+    </feature>
+    <feature name="PickUpReturnCalendarPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.PickUpReturnCalendarPlugin" />
+    </feature>
+    <feature name="CarListPageTitlePlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.CarListPageTitlePlugin" />
+    </feature>
+    <feature name="ImagePlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.ImagePlugin" />
+    </feature>
+    <feature name="MediaViewerPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.MediaViewerPlugin" />
+    </feature>
+    <feature name="SharePlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.SharePlugin" />
+    </feature>
+    <feature name="UMAuthPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.UMAuthPlugin" />
+    </feature>
+    <feature name="InputPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.InputPlugin" />
+    </feature>
+    <feature name="AnswerUserQuestionPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.AnswerUserQuestionPlugin" />
+    </feature>
+    <feature name="ClipboardPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.ClipboardPlugin" />
+    </feature>
+    <feature name="ReceiveSearchRegPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.ReceiveSearchRegPlugin" />
+    </feature>
+    <feature name="ActionSheetPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.ActionSheetPlugin" />
+    </feature>
+    <feature name="TabbarPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.TabbarPlugin" />
+    </feature>
+    <feature name="GoPagePlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.GoPagePlugin" />
+    </feature>
+    <feature name="ProximityMoniteringPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.ProximityMoniteringPlugin" />
+    </feature>
+    <feature name="BackPagePlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.BackPagePlugin" />
+    </feature>
+    <feature name="TopbarPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.TopbarPlugin" />
+    </feature>
+    <feature name="GoAppPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.GoAppPlugin" />
+    </feature>
+
+    <feature name="LanguagePlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.LanguagePlugin" />
+    </feature>
+
+    <feature name="LoadingPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.LoadingPlugin" />
+    </feature>
+    <feature name="PullToRefreshPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.PullToRefreshPlugin" />
+    </feature>
+    <feature name="VOIPPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.VOIPPlugin" />
+    </feature>
+    <feature name="BaiduASRPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.BaiduASRPlugin" />
+    </feature>
+    <feature name="TrackingIOPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.TrackingIOPlugin" />
+    </feature>
+    <!--目的地页面-->
+    <feature name="PageCommunicationPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.PageCommunicationPlugin" />
+    </feature>
+    <feature name="TabbarConfigPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.TabbarConfigPlugin" />
+    </feature>
+    <feature name="CustomDialogPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.CustomDialogPlugin" />
+    </feature>
+    <feature name="BadgePlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.BadgePlugin" />
+    </feature>
+    <feature name="UploadContactsPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.UploadContactsPlugin" />
+    </feature>
+    <feature name="LocationPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.LocationPlugin" />
+    </feature>
+    <feature name="RentCarPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.RentCarPlugin" />
+    </feature>
+    <feature name="VisibilityChangedPlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.VisibilityChangedPlugin" />
+    </feature>
+    <feature name="SchemePlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.SchemePlugin" />
+    </feature>
+    <feature name="LocalStoragePlugin">
+        <param
+            name="android-package"
+            value="com.zuzuChe.plugin.LocalStoragePlugin" />
+    </feature>
+</widget>
+

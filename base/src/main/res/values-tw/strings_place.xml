@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="invalid_time_too_short">還車時間必須大於取車時間</string>
+    <string name="invalid_return_time_overtime">還車時間已過</string>
+    <string name="invalid_pickup_time_overtime">取車時間已過</string>
+    <string name="city_list_hot_cities">熱門城市</string>
+
+</resources>

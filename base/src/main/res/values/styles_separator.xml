@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 分割线样式 -->
+    <style name="Separator"/>
+
+    <!-- 水平方向（细线）分割线样式 -->
+    <style name="Separator.thin_h">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+
+    <!-- 垂直方向（细线）分割线样式 -->
+    <style name="Separator.thin_v">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+
+    <!-- 重置方向渐变色分割线样式 -->
+    <style name="Separator.thin_gradient_v">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/separetor_gradient_v</item>
+    </style>
+
+    <!-- 栏目之间用于分割的厚虚线分割线样式 -->
+    <style name="Separator.thick_dotted_h">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">4dp</item>
+        <item name="android:background">@drawable/separator_dotted_medium</item>
+    </style>
+
+    <!-- 栏目之间用于分割的厚凹分割线样式 -->
+    <style name="Separator.thick_recessed_h">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:background">@drawable/separator_recessed_90</item>
+    </style>
+
+    <!-- 表单虚线分割线样式 -->
+    <style name="Separator.form_dotted">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1.0dp</item>
+        <item name="android:background">@drawable/separator_dotted_light</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+    </style>
+
+    <!-- 价格引线样式 -->
+    <style name="Separator.price_item_dotted">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@drawable/separator_dotted_light</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <!-- 水平方向阴影（上->下）分割线 -->
+    <style name="Separator.with_shadow_h_270">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:background">@drawable/separator_shadow_h_270</item>
+    </style>
+
+    <!-- 水平方向阴影（下->上）分割线 -->
+    <style name="Separator.with_shadow_h_90">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:background">@drawable/separator_shadow_h_90</item>
+    </style>
+
+    <!-- 垂直方向阴影（左->右）分割线 -->
+    <style name="Separator.with_shadow_v_0">
+        <item name="android:layout_width">5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/separator_shadow_v_0</item>
+    </style>
+
+
+    <style name="Separator.small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color_bg</item>
+    </style>
+
+    <style name="Separator.small_dark">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/bg_02</item>
+    </style>
+
+    <style name="Separator.big">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">7dp</item>
+        <item name="android:background">@color/color_bg</item>
+    </style>
+
+    <style name="Separator.big_plus">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">14dp</item>
+        <item name="android:background">@color/color_bg</item>
+    </style>
+
+    <style name="Separator.big_plus_plus">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">21dp</item>
+        <item name="android:background">@color/color_bg</item>
+    </style>
+
+</resources>

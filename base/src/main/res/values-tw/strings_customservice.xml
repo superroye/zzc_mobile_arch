@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="customservice_search_hint">有問題？搜索一下，輕松解決</string>
+
+    <string name="customservice_search_page_hint">有問題？搜一下</string>
+    <string name="customservice_search_empty">抱歉，沒有相關內容</string>
+
+    <string name="customservice_call_continue">繼續撥打</string>
+    <string name="customservice_call_back">預約回電</string>
+    <string name="customservice_call_back_success">預約成功</string>
+    <string name="customservice_call_back_wait">等待回電</string>
+
+    <string name="customservice_feedback_tips">歡迎對我們的服務提出意見和建議</string>
+    <string name="customservice_feedback">意見反饋</string>
+    <string name="customservice_busy_call_tips">目前電話繁忙，可能需要您等待較長的時間，建議您選擇專人回電服務</string>
+
+    <string name="customservice_call_needlogin">登錄後撥打，你的來電會被優先接聽</string>
+    <string name="customservice_call_redirect">直接撥打</string>
+    <string name="customservice_call_nowlogin">立即登錄</string>
+</resources>
