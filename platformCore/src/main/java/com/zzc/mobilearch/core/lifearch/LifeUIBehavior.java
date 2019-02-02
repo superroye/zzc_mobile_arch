@@ -1,6 +1,5 @@
 package com.zzc.mobilearch.core.lifearch;
 
-import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MediatorLiveData;
 import android.text.TextUtils;
 

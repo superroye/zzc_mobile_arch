@@ -18,7 +18,7 @@ import retrofit2.HttpException;
  */
 public class SupportProcedure<Result extends IHttpResponse, Data> {
 
-    WeakReference<ILoadingDialog> mProgressDialog;
+    WeakReference<ILoadingDialog> mLoading;
     private String loadingText;
     private SupportResponseLifecycle<Result, Data> responseLifecycle;
 
@@ -30,13 +30,13 @@ public class SupportProcedure<Result extends IHttpResponse, Data> {
         this.responseLifecycle = responseLifecycle;
     }
 
-    public void setProgressDialog(ILoadingDialog progressDialog) {
-        setProgressDialog(progressDialog, "请求中...");
+    public void setLoading(ILoadingDialog loading) {
+        setLoading(loading, "请求中...");
     }
 
-    public void setProgressDialog(ILoadingDialog progressDialog, String loadingText) {
-        if (progressDialog != null) {
-            this.mProgressDialog = new WeakReference<>(progressDialog);
+    public void setLoading(ILoadingDialog loading, String loadingText) {
+        if (loading != null) {
+            this.mLoading = new WeakReference<>(loading);
             this.loadingText = loadingText;
         }
     }
@@ -75,11 +75,11 @@ public class SupportProcedure<Result extends IHttpResponse, Data> {
     }
 
     public void showLoading() {
-        if (!TextUtils.isEmpty(loadingText) && mProgressDialog != null) {
+        if (!TextUtils.isEmpty(loadingText) && mLoading != null) {
             RxSimple.runOnUIThread(new Runnable() {
                 @Override
                 public void run() {
-                    ILoadingDialog progress = mProgressDialog.get();
+                    ILoadingDialog progress = mLoading.get();
                     if (progress != null) {
                         progress.showLoading(loadingText);
                     }
@@ -89,11 +89,11 @@ public class SupportProcedure<Result extends IHttpResponse, Data> {
     }
 
     public void hideLoading() {
-        if (!TextUtils.isEmpty(loadingText) && mProgressDialog != null) {
+        if (!TextUtils.isEmpty(loadingText) && mLoading != null) {
             RxSimple.runOnUIThread(new Runnable() {
                 @Override
                 public void run() {
-                    ILoadingDialog progress = mProgressDialog.get();
+                    ILoadingDialog progress = mLoading.get();
                     if (progress != null) {
                         progress.hideLoading();
                     }

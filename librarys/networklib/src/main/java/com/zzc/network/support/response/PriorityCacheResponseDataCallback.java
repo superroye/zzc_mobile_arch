@@ -24,12 +24,12 @@ public abstract class PriorityCacheResponseDataCallback<Result extends IHttpResp
         procedure.setResponseLifecycle(this);
     }
 
-    public void setProgressDialog(ILoadingDialog progressDialog) {
-        procedure.setProgressDialog(progressDialog);
+    public void setLoading(ILoadingDialog progressDialog) {
+        procedure.setLoading(progressDialog);
     }
 
-    public void setProgressDialog(ILoadingDialog progressDialog, String loadingText) {
-        procedure.setProgressDialog(progressDialog, loadingText);
+    public void setLoading(ILoadingDialog progressDialog, String loadingText) {
+        procedure.setLoading(progressDialog, loadingText);
     }
 
     @Override
@@ -81,7 +81,6 @@ public abstract class PriorityCacheResponseDataCallback<Result extends IHttpResp
 
     @Override
     public void onFailed(Result result) {
-        DefaultResponseCodeHandle.handle(result);
         if (result.getMsg() != null) {
         }
     }

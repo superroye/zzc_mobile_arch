@@ -1,7 +1,7 @@
 package com.wolf.bestarch.base.network;
 
 import com.wolf.bestarch.base.bean.TaobaoTest;
-import com.wolf.bestarch.base.network.support.AppHttpResponse;
+import com.wolf.bestarch.base.network.support.HttpResponse;
 import com.zzc.network.support.cache.CacheStrategy;
 
 import io.reactivex.Observable;
@@ -24,26 +24,26 @@ public interface CoolAPi {
 
     @Headers(CacheStrategy.ONLY_CACHE)
     @GET("sug?code=utf-8")
-    public Observable<AppHttpResponse<TaobaoTest>> testSearchOnlyCache(@Query("q") String keyword);
+    public Observable<HttpResponse<TaobaoTest>> testSearchOnlyCache(@Query("q") String keyword);
 
     @Headers(CacheStrategy.NETWORK)
     @GET("sug?code=utf-8")
-    public Observable<AppHttpResponse<TaobaoTest>> testSearchNetwork(@Query("q") String keyword);
+    public Observable<HttpResponse<TaobaoTest>> testSearchNetwork(@Query("q") String keyword);
 
     @Headers(CacheStrategy.CACHE_1_HOUR)
     @GET("sug?code=utf-8")
-    public Observable<AppHttpResponse<TaobaoTest>> testSearchCacheAge(@Query("q") String keyword);
+    public Observable<HttpResponse<TaobaoTest>> testSearchCacheAge(@Query("q") String keyword);
 
     @Headers(CacheStrategy.CACHE_AND_REFRESH)
     @GET("sug?code=utf-8")
-    public Call<AppHttpResponse<TaobaoTest>> testSearchSceneCacheCall(@Query("q") String keyword);
+    public Call<HttpResponse<TaobaoTest>> testSearchSceneCacheCall(@Query("q") String keyword);
 
     @Headers(CacheStrategy.CACHE)
     @GET("sug?code=utf-8")
-    public Observable<AppHttpResponse<TaobaoTest>> testSearchSceneCache(@Query("q") String keyword);
+    public Observable<HttpResponse<TaobaoTest>> testSearchSceneCache(@Query("q") String keyword);
 
     @Headers(CacheStrategy.REFRESH)
     @GET("sug?code=utf-8")
-    public Observable<AppHttpResponse<TaobaoTest>> testSearchSceneRefresh(@Query("q") String keyword);
+    public Observable<HttpResponse<TaobaoTest>> testSearchSceneRefresh(@Query("q") String keyword);
 
 }

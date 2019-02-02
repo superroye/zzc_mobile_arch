@@ -19,7 +19,7 @@ android {
 
     def src_dir = new File(projectDir, 'src')
 // 扫描当前模块下的Pins模块，并生成List
-    def p_module_names =
+    def pins =
             src_dir
                     .list()
                     .toList()
@@ -32,36 +32,16 @@ android {
                         }
                     })
                     .collect(Collectors.toList())
-// 把生成的List合成为srcDir格式
-    def p_src_dirs =
-            p_module_names
-                    .stream()
-                    .map(
-                    new Function() {
-                        @Override
-                        Object apply(Object module) {
-                            return ['src', module, 'java'].join('/')
-                        }
-                    })
-                    .collect(Collectors.toList())
-
-    def p_res_dirs =
-            p_module_names
-                    .stream()
-                    .map(
-                    new Function() {
-                        @Override
-                        Object apply(Object module) {
-                            return ['src', module, 'res'].join('/')
-                        }
-                    })
-                    .collect(Collectors.toList())
-// 指定路径
     sourceSets {
         main {
-            manifest.srcFile "src/main/AndroidManifest.xml"
-            java.srcDirs = p_src_dirs
-            res.srcDirs = p_res_dirs
+
+            pins.each() { dir ->
+                if ('main' == dir) {
+                    manifest.srcFile "src/$dir/AndroidManifest.xml"
+                }
+                java.srcDir("src/$dir/java")
+                res.srcDir("src/$dir/res")
+            }
         }
     }
 
@@ -87,6 +67,7 @@ dependencies {
 
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'
+    //noinspection GradleCompatible
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }

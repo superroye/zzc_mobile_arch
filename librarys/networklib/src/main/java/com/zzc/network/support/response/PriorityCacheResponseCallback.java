@@ -11,6 +11,12 @@ import retrofit2.Response;
 /**
  * @author Roye
  * @date 2018/9/12
+ *  * @Result 整个接口返回的json数据类型
+ *  * @Data result{
+ *  *          Data:data,
+ *  *          code:0,
+ *  *          msg:""
+ *  *            }
  */
 public abstract class PriorityCacheResponseCallback<Result> implements Callback<Result>, SupportResponseLifecycle<Result, Result> {
 
@@ -23,12 +29,12 @@ public abstract class PriorityCacheResponseCallback<Result> implements Callback<
         procedure.setResponseLifecycle(this);
     }
 
-    public void setProgressDialog(ILoadingDialog progressDialog) {
-        procedure.setProgressDialog(progressDialog);
+    public void setLoading(ILoadingDialog progressDialog) {
+        procedure.setLoading(progressDialog);
     }
 
-    public void setProgressDialog(ILoadingDialog progressDialog, String loadingText) {
-        procedure.setProgressDialog(progressDialog, loadingText);
+    public void setLoading(ILoadingDialog progressDialog, String loadingText) {
+        procedure.setLoading(progressDialog, loadingText);
     }
 
     @Override

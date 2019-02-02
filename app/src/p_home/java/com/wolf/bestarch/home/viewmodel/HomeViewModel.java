@@ -4,12 +4,12 @@ import android.arch.lifecycle.MediatorLiveData;
 
 import com.wolf.bestarch.base.bean.TaobaoTest;
 import com.wolf.bestarch.base.network.CoolAPi;
-import com.wolf.bestarch.base.network.support.AppResponseDataObserver;
+import com.wolf.bestarch.base.network.support.ResponseDataObserver;
 import com.wolf.bestarch.home.repository.HomeRepository;
 import com.wolf.bestarch.home.repository.bean.HomeItem;
 import com.zzc.mobilearch.core.util.T;
 import com.zzc.mobilearch.general.arch.LifeViewModel;
-import com.zzc.mobilearch.general.component.network.ApiManager;
+import com.zzc.network.ApiManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,7 +43,7 @@ public class HomeViewModel extends LifeViewModel {
         }
 
 
-        AppResponseDataObserver observer = new AppResponseDataObserver<TaobaoTest>(this){
+        ResponseDataObserver observer = new ResponseDataObserver<TaobaoTest>(this){
 
             @Override
             public void onResponse(TaobaoTest result) {
@@ -51,7 +51,7 @@ public class HomeViewModel extends LifeViewModel {
                 list().postValue(result);
             }
         };
-        observer.setProgressDialog(getUIBehavior());
+        observer.setLoading(getUIBehavior());
 
         ApiManager.api(CoolAPi.class).testSearchNetwork("市").subscribe(observer);
 

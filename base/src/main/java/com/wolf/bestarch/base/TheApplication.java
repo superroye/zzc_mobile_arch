@@ -2,7 +2,7 @@ package com.wolf.bestarch.base;
 
 import android.app.Application;
 
-import com.wolf.bestarch.base.network.AppNetworkComponent;
+import com.wolf.bestarch.base.network.NetworkComponent;
 import com.zzc.mobilearch.core.app.AppBase;
 
 /**
@@ -17,6 +17,6 @@ public class TheApplication extends Application {
 
         AppBase.init(this, true);
 
-        AppNetworkComponent.init();
+        NetworkComponent.init();
     }
 }
