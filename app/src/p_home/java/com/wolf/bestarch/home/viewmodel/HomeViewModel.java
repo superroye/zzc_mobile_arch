@@ -27,7 +27,6 @@ public class HomeViewModel extends LifeViewModel {
         repository = new HomeRepository();
     }
 
-
     public MediatorLiveData<List> list() {
         return list;
     }
@@ -41,7 +40,6 @@ public class HomeViewModel extends LifeViewModel {
             item.text = new java.util.Random().nextLong() + "";
             items.add(item);
         }
-
 
         ResponseDataObserver observer = new ResponseDataObserver<TaobaoTest>(this){
 

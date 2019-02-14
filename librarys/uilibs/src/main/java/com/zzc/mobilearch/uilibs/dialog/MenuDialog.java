@@ -13,8 +13,7 @@ import android.widget.TextView;
 
 import com.zzc.mobilearch.core.util.T;
 import com.zzc.mobilearch.uilibs.R;
-import com.zzc.mobilearch.core.app.AppBase;
-
+import com.zzc.mobilearch.uilibs.Utils;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -162,7 +161,7 @@ public class MenuDialog extends BaseDialog implements View.OnClickListener {
     public MenuDialog setTitle(String title) {
         if (!TextUtils.isEmpty(title)) {
             if (mTitle == null) {
-                mTitle = new Menu(title, ContextCompat.getColor(AppBase.app, com.zzc.mobilearch.design.R.color.textSecondary), 16, false);
+                mTitle = new Menu(title, ContextCompat.getColor(Utils.getApp(), com.zzc.mobilearch.design.R.color.textSecondary), 16, false);
             } else {
                 mTitle.text = title;
             }

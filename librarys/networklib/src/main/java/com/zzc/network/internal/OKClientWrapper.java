@@ -2,7 +2,7 @@ package com.zzc.network.internal;
 
 import android.annotation.SuppressLint;
 
-import com.zzc.mobilearch.core.app.AppBase;
+import com.zzc.network.Utils;
 import com.zzc.network.internal.interceptor.CacheStrategyInterceptor;
 import com.zzc.network.internal.interceptor.NetworkInterceptor;
 import com.zzc.network.internal.interceptor.HttpLoggingInterceptor;
@@ -56,7 +56,7 @@ public class OKClientWrapper {
 
     private void init() {
         int totalCacheSize = 64 * 1024 * 1024; // 64M
-        Cache cache = new Cache(new File(AppBase.app.getCacheDir(), "okhttp"), totalCacheSize);
+        Cache cache = new Cache(new File(Utils.getApp().getCacheDir(), "okhttp"), totalCacheSize);
 
         this.builder = new OkHttpClient.Builder()
                 .cache(cache)

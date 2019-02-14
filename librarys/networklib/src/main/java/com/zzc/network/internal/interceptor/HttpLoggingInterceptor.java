@@ -15,7 +15,7 @@
  */
 package com.zzc.network.internal.interceptor;
 
-import com.zzc.mobilearch.core.app.AppBase;
+import com.zzc.network.Utils;
 
 import java.io.EOFException;
 import java.io.IOException;
@@ -148,7 +148,7 @@ public final class HttpLoggingInterceptor implements Interceptor {
 
     @Override
     public Response intercept(Chain chain) throws IOException {
-        if (AppBase.DEBUG) {
+        if (Utils.isDebug()) {
             this.level = Level.BODY;
         } else {
             this.level = Level.NONE;

@@ -8,7 +8,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.text.TextUtils;
 import com.zzc.mobilearch.uilibs.R;
-import com.zzc.mobilearch.core.app.AppBase;
+import com.zzc.mobilearch.uilibs.Utils;
 
 /**
  * Created by Roye on 2016/1/19.
@@ -31,7 +31,7 @@ public class PageFrameActivity extends IntelligentActivityImpl {
         Intent intent = new Intent(context, PageFrameActivity.class);
         intent.putExtra(EXTRA_CLASS, cls.getName());
         intent.putExtra(EXTRA_TOOLBAR_TITLE, toolbarTitle);
-        if (context == AppBase.app) {
+        if (context == Utils.getApp()) {
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         }
         if (extras != null)
