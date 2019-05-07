@@ -1,7 +1,7 @@
 package com.wolf.bestarch.base.network.support;
 
-import com.zzc.mobilearch.rxjava2.IRxObserveDisposer;
-import com.zzc.network.support.response.BaseResponseObserver;
+import com.supylc.mobilearch.rxjava2.IRxObserveDisposer;
+import com.supylc.network.support.response.BaseResponseObserver;
 
 /**
  * @author Roye

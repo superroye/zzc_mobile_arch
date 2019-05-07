@@ -1,7 +1,7 @@
 package com.wolf.bestarch.customservice;
 
 import com.wolf.bestarch.R;
-import com.zzc.mobilearch.uilibs.activity.BaseFragment;
+import com.supylc.mobilearch.uilibs.activity.BaseFragment;
 
 /**
  * @author Roye

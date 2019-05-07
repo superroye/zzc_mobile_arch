@@ -1,6 +1,8 @@
 package com.wolf.bestarch;
 
-import android.arch.lifecycle.ViewModelProviders;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -8,9 +10,9 @@ import android.support.v4.app.FragmentTransaction;
 import com.wolf.bestarch.home.HomeFragment;
 import com.wolf.bestarch.hotel.HotelFragment;
 import com.wolf.bestarch.mine.MineFragment;
-import com.zzc.mobilearch.uilibs.activity.IntelligentActivityImpl;
-import com.zzc.mobilearch.uilibs.widget.badgetab.BadgeTabLayout;
-import com.zzc.mobilearch.uilibs.widget.badgetab.BadgeTabView;
+import com.supylc.mobilearch.uilibs.activity.IntelligentActivityImpl;
+import com.supylc.mobilearch.uilibs.widget.badgetab.BadgeTabLayout;
+import com.supylc.mobilearch.uilibs.widget.badgetab.BadgeTabView;
 
 public class MainActivity extends IntelligentActivityImpl implements BadgeTabLayout.OnCheckedChangeListener, BadgeTabView.OnCheckedChangeListener {
 
@@ -23,12 +25,17 @@ public class MainActivity extends IntelligentActivityImpl implements BadgeTabLay
     MainViewModel mMainViewModel;
 
     @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
     public void initView() {
         mBottomTabLayout = findViewById(R.id.home_tab_layout);
 
         mBottomTabLayout.setOnCheckedChangeListener(this);
 
-        initFragments();
+       // initFragments();
 
         selectFragmentById(R.id.tab_home);
 
@@ -48,12 +55,14 @@ public class MainActivity extends IntelligentActivityImpl implements BadgeTabLay
         findViewById(R.id.hideLoading).setOnClickListener(v -> {
             mMainViewModel.getUIBehavior().hideLoading();
         });
+
+        startActivity(new Intent(this, WebActivity.class));
     }
 
     @Override
     public void initData() {
-        mMainViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
-        getLifecycle().addObserver(mMainViewModel);
+        //mMainViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
+        //getLifecycle().addObserver(mMainViewModel);
     }
 
     Fragment[] mFragments;
@@ -62,7 +71,6 @@ public class MainActivity extends IntelligentActivityImpl implements BadgeTabLay
         mFragments = new Fragment[3];
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction ft = fragmentManager.beginTransaction();
-
         Fragment fragment;
 
         fragment = fragmentManager.findFragmentByTag(String.valueOf(R.id.tab_home));
@@ -86,7 +94,9 @@ public class MainActivity extends IntelligentActivityImpl implements BadgeTabLay
         mFragments[2] = fragment;
         ft.add(R.id.home_content_layout, fragment, String.valueOf(R.id.tab_mine));
 
-        ft.commitNowAllowingStateLoss();
+        if (!isRestoreInstance()) {
+            ft.commitNowAllowingStateLoss();
+        }
     }
 
     Fragment mSelectedFragment;
@@ -118,7 +128,6 @@ public class MainActivity extends IntelligentActivityImpl implements BadgeTabLay
         }
         return false;
     }
-
 
     @Override
     public void onCheckedChanged(BadgeTabLayout badgeTabLayout, int checkedId) {

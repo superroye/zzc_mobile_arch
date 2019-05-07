@@ -5,12 +5,13 @@ import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
+import com.supylc.mobilearch.core.util.T;
 import com.wolf.bestarch.R;
 import com.wolf.bestarch.hotel.support.holder.*;
 import com.wolf.bestarch.hotel.viewmodel.HotelViewModel;
-import com.zzc.mobilearch.uilibs.activity.BaseFragment;
-import com.zzc.mobilearch.uilibs.widget.loadpage.XSwipeRefreshLayout;
-import com.zzc.mobilearch.uilibs.widget.recyclerview.TalentAdapter;
+import com.supylc.mobilearch.uilibs.activity.BaseFragment;
+import com.supylc.mobilearch.uilibs.widget.loadpage.XSwipeRefreshLayout;
+import com.supylc.mobilearch.uilibs.widget.recyclerview.TalentAdapter;
 
 /**
  * @author Roye
@@ -50,7 +51,7 @@ public class HotelFragment extends BaseFragment {
             loadData();
         });
         adapter = new TalentAdapter();
-        adapter.addHolderType(HotelItemHolder.class);
+        adapter.registerHolder(HotelItemHolder.class);
         listRv.setAdapter(adapter);
 
         addObserver();

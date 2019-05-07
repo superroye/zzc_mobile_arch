@@ -14,7 +14,7 @@
         android:layout_alignParentBottom="true"
         android:background="@color/colorTabbar" />
 
-    <com.zzc.mobilearch.uilibs.widget.loadpage.XSwipeRefreshLayout
+    <com.supylc.mobilearch.uilibs.widget.loadpage.XSwipeRefreshLayout
         android:id="@+id/swipe_refresh"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -27,7 +27,7 @@
             android:orientation="vertical"
             app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
 
-    </com.zzc.mobilearch.uilibs.widget.loadpage.XSwipeRefreshLayout>
+    </com.supylc.mobilearch.uilibs.widget.loadpage.XSwipeRefreshLayout>
 
     <RelativeLayout
         android:id="@+id/vg_top_bar"

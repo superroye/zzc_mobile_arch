@@ -4,7 +4,7 @@ import android.arch.lifecycle.MediatorLiveData;
 
 import com.wolf.bestarch.mine.repository.MineRepository;
 import com.wolf.bestarch.mine.repository.bean.MineItem;
-import com.zzc.mobilearch.general.arch.LifeViewModel;
+import com.supylc.mobilearch.general.arch.LifeViewModel;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -95,7 +95,7 @@
             android:layout_alignParentBottom="true"
             android:gravity="center"
             android:text="@string/home_tab_poi"
-            android:textColor="@color/zzc_blue_254fcb"
+            android:textColor="@color/supylc_blue_254fcb"
             android:textSize="15sp"
             android:textStyle="bold" />
 

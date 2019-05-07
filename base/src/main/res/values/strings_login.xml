@@ -48,7 +48,7 @@
     <string name="phone_region">国家/地区</string>
     <string name="phone_region_code">%1$s&#160;&#160;+%2$s</string>
     <string name="phone_code">+%1$s</string>
-    <string name="zzc_agreement_title">租租车用户协议</string>
+    <string name="supylc_agreement_title">租租车用户协议</string>
 
     <string name="ali_security_failed">操作有误，请重试</string>
     <string name="phone_format">%1$s-%2$s</string>

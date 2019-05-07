@@ -1,6 +1,13 @@
-include ':app', ':base', ':platformSdk', ':platformCore', ":librarys",
-        ':librarys:networklib',
-        ':librarys:designStyle',
-        ':librarys:autodispose-android',
-        ':librarys:uilibs',
-        ':librarys:rxjavaExt'
+include ':librarys', ':h5cache',
+        ':platformCore',
+        ':platformSdk',
+        ':service-compiler',
+        ':service-annotation',
+        ':commonBiz',
+        ':app',
+        ':base'
+
+file('librarys').eachDir { dir ->
+    include dir.name
+    project(":${dir.name}").projectDir = dir
+}

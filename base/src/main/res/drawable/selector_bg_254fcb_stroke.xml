@@ -4,17 +4,17 @@
         <shape>
             <stroke
                 android:width="0.5dp"
-                android:color="@color/zzc_blue_254fcb"
+                android:color="@color/supylc_blue_254fcb"
                 />
             <corners android:radius="4dp"/>
-            <solid android:color="@color/zzc_blue_e9edf9"/>
+            <solid android:color="@color/supylc_blue_e9edf9"/>
         </shape>
     </item>
 
     <item>
         <shape>
             <stroke android:width="0.5dp"
-                    android:color="@color/zzc_blue_254fcb"/>
+                    android:color="@color/supylc_blue_254fcb"/>
             <corners android:radius="4dp"/>
         </shape>
     </item>

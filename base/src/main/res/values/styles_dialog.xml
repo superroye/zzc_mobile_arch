@@ -38,7 +38,7 @@
         <item name="android:textColor">@color/textColor_a4</item>
         <item name="android:textSize">15sp</item>
         <item name="android:autoLink">phone|web</item>
-        <item name="android:textColorLink">@color/zzc_blue_254fcb</item>
+        <item name="android:textColorLink">@color/supylc_blue_254fcb</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:gravity">center</item>
         <item name="android:lineSpacingExtra">3dp</item>

@@ -1,21 +1,21 @@
 package com.wolf.bestarch.base;
 
-import android.app.Application;
+import android.support.multidex.MultiDexApplication;
 
+import com.supylc.mobilearch.core.app.BaseApp;
 import com.wolf.bestarch.base.network.NetworkComponent;
-import com.zzc.mobilearch.core.app.AppBase;
 
 /**
  * @author Roye
  * @date 2019/1/30
  */
-public class TheApplication extends Application {
+public class TheApplication extends MultiDexApplication {
 
     @Override
     public void onCreate() {
         super.onCreate();
 
-        AppBase.init(this, true);
+        BaseApp.getInstance().onCreate(this, true);
 
         NetworkComponent.init();
     }

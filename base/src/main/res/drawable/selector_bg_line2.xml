@@ -4,7 +4,7 @@
     <item
         android:state_enabled="true" android:state_selected="true">
         <shape>
-            <solid android:color="@color/zzc_blue_4e7cdd"/>
+            <solid android:color="@color/supylc_blue_4e7cdd"/>
             <size android:height="1dp"/>
         </shape>
     </item>
@@ -14,7 +14,7 @@
     <item
         android:state_enabled="false">
         <shape>
-            <solid android:color="@color/zzc_red_f24c3d"/>
+            <solid android:color="@color/supylc_red_f24c3d"/>
             <size android:height="1dp"/>
         </shape>
     </item>

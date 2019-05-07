@@ -47,7 +47,7 @@
             name="onload"
             value="true" />
     </feature>
-    <feature name="ZZCAppMoneyPay">
+    <feature name="supylcAppMoneyPay">
         <param
             name="android-package"
             value="com.zuzuChe.plugin.PayPlugin" />

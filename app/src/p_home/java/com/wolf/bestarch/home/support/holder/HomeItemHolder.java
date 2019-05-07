@@ -8,8 +8,8 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.wolf.bestarch.R;
 import com.wolf.bestarch.home.repository.bean.HomeItem;
-import com.zzc.mobilearch.uilibs.widget.recyclerview.HolderRes;
-import com.zzc.mobilearch.uilibs.widget.recyclerview.TalentHolder;
+import com.supylc.mobilearch.uilibs.widget.recyclerview.HolderRes;
+import com.supylc.mobilearch.uilibs.widget.recyclerview.TalentHolder;
 
 /**
  * @author Roye

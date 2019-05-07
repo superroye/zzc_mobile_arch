@@ -6,9 +6,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.wolf.bestarch.R;
-import com.wolf.bestarch.base.bean.TaobaoTest;
-import com.zzc.mobilearch.uilibs.widget.recyclerview.HolderRes;
-import com.zzc.mobilearch.uilibs.widget.recyclerview.TalentHolder;
+import com.wolf.bestarch.home.repository.bean.TaobaoTest;
+import com.supylc.mobilearch.uilibs.widget.recyclerview.HolderRes;
+import com.supylc.mobilearch.uilibs.widget.recyclerview.TalentHolder;
 
 /**
  * @author Roye

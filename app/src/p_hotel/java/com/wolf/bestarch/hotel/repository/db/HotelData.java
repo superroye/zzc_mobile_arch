@@ -1,6 +1,6 @@
 package com.wolf.bestarch.hotel.repository.db;
 
-import com.zzc.mobilearch.core.storage.CommonData;
+import com.supylc.mobilearch.core.storage.SharedPreferencesData;
 
 /**
  * @author Roye
@@ -33,12 +33,12 @@ public class HotelData {
     public void setRoomParam(Object room) {
     }
 
-    private static CommonData data;
+    private static SharedPreferencesData data;
     private static HotelData mInstance;
 
-    private static CommonData getData() {
+    private static SharedPreferencesData getData() {
         if (data == null) {
-            data = new CommonData(SP_FILE);
+            data = new SharedPreferencesData(SP_FILE);
         }
         return data;
     }

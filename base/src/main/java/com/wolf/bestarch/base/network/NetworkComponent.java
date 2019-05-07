@@ -1,7 +1,7 @@
 package com.wolf.bestarch.base.network;
 
-import com.zzc.network.ApiManager;
-import com.zzc.network.internal.CommonParamsAdapter;
+import com.supylc.network.ApiManager;
+import com.supylc.network.internal.CommonParamsAdapter;
 
 import okhttp3.HttpUrl;
 import okhttp3.Request;
@@ -13,24 +13,41 @@ import okhttp3.Request;
 public class NetworkComponent {
 
     public static void init() {
-        ApiManager.builder(CoolAPi.class)
-                .baseUrl("https://suggest.taobao.com/")
-                .requestAdapter(new CommonParamsAdapter() {
-                    @Override
-                    public void addHeader(Request.Builder builder) {
+//        ApiManager.builder(CoolAPi.class)
+//                .baseUrl("https://suggest.taobao.com/")
+//                .requestAdapter(new CommonParamsAdapter() {
+//                    @Override
+//                    public void addHeader(Request.Builder builder) {
+//
+//                    }
+//
+//                    @Override
+//                    public void addQueryParams(Request originalRequest, HttpUrl.Builder httpUrlBuilder) {
+//
+//                    }
+//
+//                    @Override
+//                    public void addPostParams(Request originalRequest, Request.Builder requestBuilder) {
+//
+//                    }
+//                }).build();
 
-                    }
+        ApiManager.groupBuilder("main").baseUrl("https://suggest.taobao.com/").requestAdapter(new CommonParamsAdapter() {
+            @Override
+            public void addHeader(Request.Builder builder) {
 
-                    @Override
-                    public void addQueryParams(Request originalRequest, HttpUrl.Builder httpUrlBuilder) {
+            }
 
-                    }
+            @Override
+            public void addQueryParams(Request originalRequest, HttpUrl.Builder httpUrlBuilder) {
 
-                    @Override
-                    public void addPostParams(Request originalRequest, Request.Builder requestBuilder) {
+            }
 
-                    }
-                }).build();
+            @Override
+            public void addPostParams(Request originalRequest, Request.Builder requestBuilder) {
+
+            }
+        }).build();
 
     }
 }

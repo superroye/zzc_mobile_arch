@@ -19,7 +19,7 @@
             android:left="1dp">
             <bitmap
                 android:gravity="top|left"
-                android:src="@drawable/ic_zzc_wheel_zzc_zh" />
+                android:src="@drawable/ic_zzc_wheel_supylc_zh" />
         </item>
 
         <item
@@ -27,7 +27,7 @@
             android:top="17dp">
             <bitmap
                 android:gravity="top|left"
-                android:src="@drawable/ic_zzc_wheel_zzc_en" />
+                android:src="@drawable/ic_zzc_wheel_supylc_en" />
         </item>
 
     </layer-list>-->

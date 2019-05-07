@@ -3,15 +3,15 @@
 
     <item android:state_pressed="true">
         <shape>
-            <stroke android:width="0.5dp" android:color="@color/zzc_blue_4e7cdd"/>
+            <stroke android:width="0.5dp" android:color="@color/supylc_blue_4e7cdd"/>
             <corners android:radius="1dp"/>
-            <solid android:color="@color/zzc_blue_edf1fb"/>
+            <solid android:color="@color/supylc_blue_edf1fb"/>
         </shape>
     </item>
 
     <item android:state_enabled="true">
         <shape>
-            <stroke android:width="0.5dp" android:color="@color/zzc_blue_4e7cdd"/>
+            <stroke android:width="0.5dp" android:color="@color/supylc_blue_4e7cdd"/>
             <corners android:radius="1dp"/>
             <solid android:color="@color/transparent"/>
         </shape>

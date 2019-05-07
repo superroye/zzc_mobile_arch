@@ -72,51 +72,51 @@
     <color name="destine_car_text">#31448e</color>
     <color name="chat_choose_bg">#aaaaaa</color>
 
-    <!--zzc color blue-->
-    <color name="zzc_blue_4e7cdd">#4E7CDD</color>
-    <color name="zzc_blue_4e7cdd_helf">#804E7CDD</color>
-    <color name="zzc_blue_3e63b0">#3e63b0</color>
-    <color name="zzc_blue_edf1fb">#edf1fb</color>
+    <!--supylc color blue-->
+    <color name="supylc_blue_4e7cdd">#4E7CDD</color>
+    <color name="supylc_blue_4e7cdd_helf">#804E7CDD</color>
+    <color name="supylc_blue_3e63b0">#3e63b0</color>
+    <color name="supylc_blue_edf1fb">#edf1fb</color>
 
-    <color name="zzc_blue_86abff">#86abff</color>
-    <color name="zzc_blue_86abff_helf">#8086abff</color>
-    <color name="zzc_blue_6b88cc">#6b88cc</color>
-    <color name="zzc_blue_f2f6ff">#f2f6ff</color>
+    <color name="supylc_blue_86abff">#86abff</color>
+    <color name="supylc_blue_86abff_helf">#8086abff</color>
+    <color name="supylc_blue_6b88cc">#6b88cc</color>
+    <color name="supylc_blue_f2f6ff">#f2f6ff</color>
 
-    <color name="zzc_blue_254fcb">#254fcb</color>
-    <color name="zzc_blue_254fcb_helf">#80254fcb</color>
-    <color name="zzc_blue_1d3fa2">#1d3fa2</color>
-    <color name="zzc_blue_e9edf9">#e9edf9</color>
-    <color name="zzc_blue_476bd7">#476bd7</color>
+    <color name="supylc_blue_254fcb">#254fcb</color>
+    <color name="supylc_blue_254fcb_helf">#80254fcb</color>
+    <color name="supylc_blue_1d3fa2">#1d3fa2</color>
+    <color name="supylc_blue_e9edf9">#e9edf9</color>
+    <color name="supylc_blue_476bd7">#476bd7</color>
 
-    <!--zzc color red-->
-    <color name="zzc_red_f0240e">#F0240E</color>
-    <color name="zzc_red_f0240e_helf">#80F0240E</color>
-    <color name="zzc_red_f40256">#F40256</color>
-    <color name="zzc_red_f40256_helf">#80f40256</color>
-    <color name="zzc_red_c30144">#c30144</color>
-    <color name="zzc_red_fde5ee">#fde5ee</color>
+    <!--supylc color red-->
+    <color name="supylc_red_f0240e">#F0240E</color>
+    <color name="supylc_red_f0240e_helf">#80F0240E</color>
+    <color name="supylc_red_f40256">#F40256</color>
+    <color name="supylc_red_f40256_helf">#80f40256</color>
+    <color name="supylc_red_c30144">#c30144</color>
+    <color name="supylc_red_fde5ee">#fde5ee</color>
 
-    <color name="zzc_red_ff5a82">#ff5a82</color>
-    <color name="zzc_red_ff5a82_helf">#80ff5a82</color>
-    <color name="zzc_red_cc4868">#cc4868</color>
-    <color name="zzc_red_ffeef2">#ffeef2</color>
+    <color name="supylc_red_ff5a82">#ff5a82</color>
+    <color name="supylc_red_ff5a82_helf">#80ff5a82</color>
+    <color name="supylc_red_cc4868">#cc4868</color>
+    <color name="supylc_red_ffeef2">#ffeef2</color>
 
-    <color name="zzc_red_cc0033">#cc0033</color>
-    <color name="zzc_red_cc0033_helf">#cc0033</color>
-    <color name="zzc_red_a30028">#a30028</color>
-    <color name="zzc_red_f9e5ea">#F9E5EA</color>
+    <color name="supylc_red_cc0033">#cc0033</color>
+    <color name="supylc_red_cc0033_helf">#cc0033</color>
+    <color name="supylc_red_a30028">#a30028</color>
+    <color name="supylc_red_f9e5ea">#F9E5EA</color>
 
-    <color name="zzc_red_f24c3d">#f24c3d</color>
-    <color name="zzc_red_fb5b42">#fb5b42</color>
-    <color name="zzc_red_f7806a">#f7806a</color>
+    <color name="supylc_red_f24c3d">#f24c3d</color>
+    <color name="supylc_red_fb5b42">#fb5b42</color>
+    <color name="supylc_red_f7806a">#f7806a</color>
 
-    <!--zzc color yellow-->
-    <color name="zzc_yellow_ffcc00">#ffcc00</color>
-    <!--zzc color orange-->
-    <color name="zzc_orange_f5a523">#f5a523</color>
-    <!--zzc color gray-->
-    <color name="zzc_gray_c6c6cb">#c6c6cb</color>
-    <color name="zzc_gray_ececf0">#ECECF0</color>
+    <!--supylc color yellow-->
+    <color name="supylc_yellow_ffcc00">#ffcc00</color>
+    <!--supylc color orange-->
+    <color name="supylc_orange_f5a523">#f5a523</color>
+    <!--supylc color gray-->
+    <color name="supylc_gray_c6c6cb">#c6c6cb</color>
+    <color name="supylc_gray_ececf0">#ECECF0</color>
 
 </resources>

@@ -1,6 +1,6 @@
 package com.wolf.bestarch.base.network.support;
 
-import com.zzc.network.support.response.IHttpResponse;
+import com.supylc.network.support.response.IHttpResponse;
 
 /**
  * @author Roye

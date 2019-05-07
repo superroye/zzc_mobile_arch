@@ -4,7 +4,7 @@ import android.arch.lifecycle.MediatorLiveData;
 
 import com.wolf.bestarch.hotel.repository.HotelRepository;
 import com.wolf.bestarch.hotel.repository.bean.HotelItem;
-import com.zzc.mobilearch.general.arch.LifeViewModel;
+import com.supylc.mobilearch.general.arch.LifeViewModel;
 
 import java.util.ArrayList;
 import java.util.List;

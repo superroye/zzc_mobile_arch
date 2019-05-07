@@ -5,13 +5,14 @@ import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
+import com.alibaba.android.arouter.facade.annotation.Autowired;
 import com.wolf.bestarch.R;
 import com.wolf.bestarch.home.support.holder.HomeItemHolder;
 import com.wolf.bestarch.home.support.holder.TaobaoTestHolder;
 import com.wolf.bestarch.home.viewmodel.HomeViewModel;
-import com.zzc.mobilearch.uilibs.activity.BaseFragment;
-import com.zzc.mobilearch.uilibs.widget.loadpage.XSwipeRefreshLayout;
-import com.zzc.mobilearch.uilibs.widget.recyclerview.TalentAdapter;
+import com.supylc.mobilearch.uilibs.activity.BaseFragment;
+import com.supylc.mobilearch.uilibs.widget.loadpage.XSwipeRefreshLayout;
+import com.supylc.mobilearch.uilibs.widget.recyclerview.TalentAdapter;
 
 /**
  * @author Roye
@@ -51,8 +52,8 @@ public class HomeFragment extends BaseFragment {
             loadData();
         });
         adapter = new TalentAdapter();
-        adapter.addHolderType(HomeItemHolder.class);
-        adapter.addHolderType(TaobaoTestHolder.class);
+        adapter.registerHolder(HomeItemHolder.class);
+        adapter.registerHolder(TaobaoTestHolder.class);
         listRv.setAdapter(adapter);
 
         addObserver();

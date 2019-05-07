@@ -8,9 +8,9 @@ import android.view.View;
 import com.wolf.bestarch.R;
 import com.wolf.bestarch.mine.support.holder.MineItemHolder;
 import com.wolf.bestarch.mine.viewmodel.MineViewModel;
-import com.zzc.mobilearch.uilibs.activity.BaseFragment;
-import com.zzc.mobilearch.uilibs.widget.loadpage.XSwipeRefreshLayout;
-import com.zzc.mobilearch.uilibs.widget.recyclerview.TalentAdapter;
+import com.supylc.mobilearch.uilibs.activity.BaseFragment;
+import com.supylc.mobilearch.uilibs.widget.loadpage.XSwipeRefreshLayout;
+import com.supylc.mobilearch.uilibs.widget.recyclerview.TalentAdapter;
 
 /**
  * @author Roye
@@ -49,7 +49,7 @@ public class MineFragment extends BaseFragment {
             loadData();
         });
         adapter = new TalentAdapter();
-        adapter.addHolderType(MineItemHolder.class);
+        adapter.registerHolder(MineItemHolder.class);
         listRv.setAdapter(adapter);
 
         addObserver();

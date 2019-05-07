@@ -27,11 +27,13 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     api project(':platformCore')
-    api project(':librarys:designStyle')
-    api project(':librarys:autodispose-android')
-    api project(':librarys:uilibs')
-    api project(':librarys:networklib')
-    api project(':librarys:rxjavaExt')
+    api project(':designStyle')
+    api project(':autodispose-android')
+    api project(':uilibs')
+    api project(':networklib')
+    api project(':rxjavaExt')
+    api project(':service-annotation')
+    api project(':h5cache')
 
     api "com.android.support:multidex:${multidexVersion}"
 
@@ -39,6 +41,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-fragment'
     }
 
+    api "com.alibaba:arouter-api:${routeApiVersion}"
     api 'jp.wasabeef:glide-transformations:3.0.1'
 
 }

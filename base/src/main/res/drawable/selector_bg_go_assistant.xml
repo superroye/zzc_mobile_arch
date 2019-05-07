@@ -15,7 +15,7 @@
 
     <item android:state_pressed="false" android:state_selected="true">
         <shape android:shape="rectangle">
-            <solid android:color="@color/zzc_blue_4e7cdd" />
+            <solid android:color="@color/supylc_blue_4e7cdd" />
             <size
                 tools:height="35dp" />
             <corners
@@ -27,7 +27,7 @@
         <shape android:shape="rectangle">
             <stroke android:width="0.5dp"
                     android:color="#b24e7cdd" />
-            <solid android:color="@color/zzc_blue_e9edf9" />
+            <solid android:color="@color/supylc_blue_e9edf9" />
             <size
                 tools:height="35dp" />
             <corners
@@ -50,7 +50,7 @@
 
     <item>
         <shape android:shape="rectangle">
-            <solid android:color="@color/zzc_blue_4e7cdd" />
+            <solid android:color="@color/supylc_blue_4e7cdd" />
             <size
                 tools:height="35dp" />
             <corners

@@ -1,6 +1,6 @@
 package com.wolf.bestarch;
 
-import com.zzc.mobilearch.general.arch.LifeViewModel;
+import com.supylc.mobilearch.general.arch.LifeViewModel;
 
 /**
  * @author Roye

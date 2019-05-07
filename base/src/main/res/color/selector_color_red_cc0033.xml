@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:color="@color/zzc_red_cc0033_helf" android:state_enabled="false"/>
-    <item android:color="@color/zzc_red_cc0033" android:state_enabled="true"/>
-    <item android:color="@color/zzc_red_cc0033"/>
+    <item android:color="@color/supylc_red_cc0033_helf" android:state_enabled="false"/>
+    <item android:color="@color/supylc_red_cc0033" android:state_enabled="true"/>
+    <item android:color="@color/supylc_red_cc0033"/>
 </selector>

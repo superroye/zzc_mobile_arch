@@ -2,14 +2,14 @@ package com.wolf.bestarch.home.viewmodel;
 
 import android.arch.lifecycle.MediatorLiveData;
 
-import com.wolf.bestarch.base.bean.TaobaoTest;
-import com.wolf.bestarch.base.network.CoolAPi;
 import com.wolf.bestarch.base.network.support.ResponseDataObserver;
+import com.wolf.bestarch.home.repository.CoolAPi;
 import com.wolf.bestarch.home.repository.HomeRepository;
 import com.wolf.bestarch.home.repository.bean.HomeItem;
-import com.zzc.mobilearch.core.util.T;
-import com.zzc.mobilearch.general.arch.LifeViewModel;
-import com.zzc.network.ApiManager;
+import com.wolf.bestarch.home.repository.bean.TaobaoTest;
+import com.supylc.mobilearch.core.util.T;
+import com.supylc.mobilearch.general.arch.LifeViewModel;
+import com.supylc.network.ApiManager;
 
 import java.util.ArrayList;
 import java.util.List;

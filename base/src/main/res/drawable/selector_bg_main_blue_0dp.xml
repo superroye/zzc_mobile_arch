@@ -7,12 +7,12 @@
     </item>
     <item android:state_pressed="true">
         <shape>
-            <solid android:color="@color/zzc_blue_3e63b0"/>
+            <solid android:color="@color/supylc_blue_3e63b0"/>
         </shape>
     </item>
     <item>
         <shape>
-            <solid android:color="@color/zzc_blue_4e7cdd"/>
+            <solid android:color="@color/supylc_blue_4e7cdd"/>
         </shape>
     </item>
 </selector>
